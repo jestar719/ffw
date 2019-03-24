@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">最终幻想世界</string>
+    <string name="monster_name_temp" formatted="false">名称：%s    暗影石：%s</string>
+    <string name="monster_location_temp" formatted="false">地点： %s\n捕获条件：%s</string>
+</resources>

@@ -1,0 +1,44 @@
+ext {
+    cVersion=27
+    mVersion=21
+    vCode=1
+    vName="1.0"
+    libV = [
+            'junit'       : '4.12',
+            'support'     : '27.1.1',
+            'constraint'  : '1.1.3',
+            'architecture': '1.1.1',
+            'okhttp3'     : '3.9.0',
+            'retrofit'    : '2.3.0',
+            'rxjava2'     : '2.1.7',
+            'rxandroid'   : '2.0.1',
+            'gson'        : '2.8.5'
+//			'glide'		  : '4.4.0'
+    ]
+
+    lib = [
+            'appcompat'   : "com.android.support:appcompat-v7:${libV.support}",
+            'design'      : "com.android.support:appcompat-v7:${libV.support}",
+            'recycler'    : "com.android.support:recyclerview-v7:${libV.support}",
+            'cardview'    : "com.android.support:cardview-v7:${libV.support}",
+            'junit'       : "junit:junit:${libV.junit}",
+            'constraint'  : "com.android.support.constraint:constraint-layout:${libV.constraint}",
+            'livedata'    : "android.arch.lifecycle:extensions:${libV.architecture}",
+            'livedataCompiler'    : "android.arch.lifecycle:compiler:${libV.architecture}",
+            'livedataTest': "android.arch.core:core-testing:${libV.architecture}",
+            'room'        : "android.arch.persistence.room:runtime:${libV.architecture}",
+            'roomApt'     : "android.arch.persistence.room:compiler:${libV.architecture}",
+            'roomTest'    : "android.arch.persistence.room:testing:${libV.architecture}",
+            'roomRx'      : "android.arch.persistence.room:rxjava2:${libV.architecture}",
+            'okhttp3'     : "com.squareup.okhttp3:${libV.okhttp3}",
+            'retrofit'    : "com.squareup.retrofit2:retrofit:${libV.retrofit}",
+            'retrofitRx'  : "com.squareup.retrofit2:adapter-rxjava2:${libV.retrofit}",
+            'retrofitGson': "com.squareup.retrofit2:converter-gson:${libV.retrofit}",
+            'rxjava2'     : "io.reactivex.rxjava2:rxjava:${libV.rxjava2}",
+            'rxandroid'   : "io.reactivex.rxjava2:rxandroid:${libV.rxandroid}",
+            'gson'        : "com.google.code.gson:gson:${libV.gson}"
+//			'glide'		  : "com.github.bumptech.glide:${libV[glide]}",
+//			'glideOkhttp' : "com.github.bumptech.glide:okhttp-integration${libV[glide]}",
+//			'glideApt'    :	"com.github.bumptech.glide:compiler${libV[glide]}"
+    ]
+}

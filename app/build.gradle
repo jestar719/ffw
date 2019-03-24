@@ -1,0 +1,37 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion cVersion
+    defaultConfig {
+        applicationId "cn.jestar.ffw"
+        minSdkVersion mVersion
+        targetSdkVersion cVersion
+        versionCode vCode
+        versionName vName
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    dataBinding {
+        enabled= true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation lib.constraint
+    implementation lib.appcompat
+//    implementation lib.design
+    implementation lib.recycler
+    implementation lib.cardview
+    implementation lib.livedata
+    implementation lib.gson
+    annotationProcessor lib.livedataCompiler
+    testImplementation lib.junit
+//    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}
+configurations { all*.exclude group: 'com.android.support', module: 'support-v4' }
