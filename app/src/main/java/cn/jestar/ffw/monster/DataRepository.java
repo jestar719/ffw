@@ -11,7 +11,7 @@ import java.util.Map;
 
 public class DataRepository {
     private List<MonsterGroup> list = new ArrayList<>();
-    private List<String> location = new ArrayList<>();
+    private List<LocationBean> location = new ArrayList<>();
     private List<String> item = new ArrayList<>();
     private Map<String, Monster> monsters = new HashMap<String, Monster>();
 
@@ -44,11 +44,11 @@ public class DataRepository {
         this.list = list;
     }
 
-    public List<String> getLocation() {
+    public List<LocationBean> getLocation() {
         return location;
     }
 
-    public void setLocation(List<String> location) {
+    public void setLocation(List<LocationBean> location) {
         this.location = location;
     }
 

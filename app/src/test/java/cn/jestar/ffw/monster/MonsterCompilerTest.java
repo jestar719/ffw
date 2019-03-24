@@ -13,8 +13,10 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.Writer;
 import java.lang.reflect.Type;
 import java.net.URL;
 import java.util.ArrayList;
@@ -239,6 +241,7 @@ public class MonsterCompilerTest {
         }
         return index;
     }
+
     @Test
     public void getIcon() throws IOException {
         File file = new File(mRepositoryFile);
@@ -252,15 +255,30 @@ public class MonsterCompilerTest {
 
     private void loadImg(Monster monster) throws IOException {
         URL url = new URL(monster.getUrl());
-        File file = new File(mDir, String.format("icon_%s.jpg",monster.getId()));
+        File file = new File(mDir, String.format("icon_%s.jpg", monster.getId()));
         BufferedOutputStream outputStream = new BufferedOutputStream(new FileOutputStream(file));
-        byte[] buff=new byte[4096];
+        byte[] buff = new byte[4096];
         InputStream stream = url.openStream();
-         int len=0;
-         while ((len=stream.read(buff))!=-1){
-             outputStream.write(buff,0,len);
-         }
-         outputStream.close();
-         stream.close();
+        int len = 0;
+        while ((len = stream.read(buff)) != -1) {
+            outputStream.write(buff, 0, len);
+        }
+        outputStream.close();
+        stream.close();
+    }
+
+    @Test
+    public void setLocation() throws IOException {
+        Type type = new TypeToken<ArrayList<LocationBean>>() {
+        }.getType();
+        String file = "locations.json";
+        final List<LocationBean> locations = mGson.fromJson(getReader(file), type);
+        int size = locations.size();
+        for (int i = 0; i < size; i++) {
+            locations.get(i).setId(i + 1);
+        }
+        Writer writer = new FileWriter(file);
+        writer.write(mGson.toJson(locations));
+        writer.close();
     }
 }

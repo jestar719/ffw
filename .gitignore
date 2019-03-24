@@ -6,3 +6,6 @@
 /build
 /captures
 .externalNativeBuild
+libs/
+src/androidTest/
+src/main/java/cn/jestar/ffw/fragments/
