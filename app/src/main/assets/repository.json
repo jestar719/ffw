@@ -1,12 +1,107 @@
 {
   "list": [
     {
-      "id": 0,
+      "id": 1,
       "list": [
         {
           "id": 1,
+          "name": "小玉",
+          "group": 1,
+          "location": [],
+          "transformTo": [
+            "玉藻姬"
+          ],
+          "size": "S",
+          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635821895.jpg",
+          "drop": []
+        },
+        {
+          "id": 2,
+          "name": "玉藻姬",
+          "group": 1,
+          "location": [],
+          "transformCondition": "真结局通关",
+          "transformTo": [
+            "小玉"
+          ],
+          "size": "L",
+          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606500.jpg",
+          "drop": [],
+          "shadowStone": "全属性抗性提升"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "list": [
+        {
+          "id": 3,
+          "name": "尤路古",
+          "group": 2,
+          "location": [],
+          "catchCondition": "陷入忘却状态",
+          "transformTo": [
+            "九尾狐"
+          ],
+          "size": "S",
+          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635821896.jpg",
+          "drop": []
+        },
+        {
+          "id": 4,
+          "name": "九尾狐",
+          "group": 2,
+          "location": [],
+          "catchCondition": "陷入死亡宣告状态※史芬杰斯技能",
+          "transformCondition": "真结局通关",
+          "transformTo": [
+            "尤路古"
+          ],
+          "size": "L",
+          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606501.jpg",
+          "drop": [],
+          "shadowStone": "安全别针"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "list": [
+        {
+          "id": 5,
+          "name": "风精",
+          "group": 3,
+          "location": [],
+          "catchCondition": "降低其HP",
+          "transformTo": [
+            "赛莲"
+          ],
+          "size": "S",
+          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635821899.jpg",
+          "drop": []
+        },
+        {
+          "id": 6,
+          "name": "赛莲",
+          "group": 3,
+          "location": [],
+          "transformTo": [
+            "风精"
+          ],
+          "size": "L",
+          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606503.jpg",
+          "drop": [],
+          "shadowStone": "大平衡"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "list": [
+        {
+          "id": 7,
           "name": "陆行鸟宝宝",
-          "group": 0,
+          "group": 4,
           "location": [
             "起始树林"
           ],
@@ -23,9 +118,9 @@
           ]
         },
         {
-          "id": 60,
+          "id": 8,
           "name": "陆行鸟",
-          "group": 0,
+          "group": 4,
           "location": [
             "幻影砂漠"
           ],
@@ -42,9 +137,9 @@
           ]
         },
         {
-          "id": 134,
+          "id": 9,
           "name": "机械陆行鸟☆",
-          "group": 0,
+          "group": 4,
           "location": [
             "斗技场"
           ],
@@ -59,10 +154,9 @@
           "shadowStone": "HP中提升"
         },
         {
-          "id": 17,
+          "id": 10,
           "name": "黑色陆行鸟",
-          "group": 0,
-          "transType":1,
+          "group": 4,
           "location": [
             "进击的平原隐藏区域"
           ],
@@ -78,10 +172,9 @@
           ]
         },
         {
-          "id": 178,
+          "id": 11,
           "name": "东方不败",
-          "group": 0,
-          "transType":1,
+          "group": 4,
           "location": [],
           "transformCondition": "心灵任务:黑色陆行鸟篇",
           "transformTo": [
@@ -94,12 +187,34 @@
       ]
     },
     {
-      "id": 1,
+      "id": 5,
       "list": [
         {
-          "id": 2,
+          "id": 12,
+          "name": "机械陆行鸟☆",
+          "group": 5,
+          "location": [
+            "斗技场"
+          ],
+          "catchCondition": "陷入狂暴状态",
+          "transformTo": [
+            "陆行鸟",
+            "陆行鸟宝宝"
+          ],
+          "size": "L",
+          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606573.jpg",
+          "drop": [],
+          "shadowStone": "HP中提升"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "list": [
+        {
+          "id": 13,
           "name": "掘地鼠",
-          "group": 1,
+          "group": 6,
           "location": [
             "起始树林",
             "灯火之森"
@@ -118,9 +233,9 @@
           "shadowStone": "窥伺探测"
         },
         {
-          "id": 82,
+          "id": 14,
           "name": "骷髅松鼠",
-          "group": 1,
+          "group": 6,
           "location": [
             "列车坟场"
           ],
@@ -134,9 +249,9 @@
           "drop": []
         },
         {
-          "id": 179,
+          "id": 15,
           "name": "卡邦库尔",
-          "group": 1,
+          "group": 6,
           "location": [],
           "transformTo": [
             "掘地鼠",
@@ -147,10 +262,9 @@
           "drop": []
         },
         {
-          "id": 22,
+          "id": 16,
           "name": "河畔掘地鼠",
-          "group": 1,
-          "transType":1,
+          "group": 6,
           "location": [
             "灯火之森",
             "列车坟场(黑块)"
@@ -167,10 +281,9 @@
           ]
         },
         {
-          "id": 53,
+          "id": 17,
           "name": "坚果松鼠",
-          "group": 1,
-          "transType":1,
+          "group": 6,
           "location": [
             "幻影砂漠",
             "刮风湿地"
@@ -189,12 +302,12 @@
       ]
     },
     {
-      "id": 2,
+      "id": 7,
       "list": [
         {
-          "id": 3,
+          "id": 18,
           "name": "铜小人",
-          "group": 2,
+          "group": 7,
           "location": [
             "涅布拉洞窟",
             "翼龙溪谷"
@@ -209,9 +322,9 @@
           "drop": []
         },
         {
-          "id": 74,
+          "id": 19,
           "name": "秘银巨人",
-          "group": 2,
+          "group": 7,
           "location": [
             "大桥",
             "超绝九垓城"
@@ -230,9 +343,9 @@
           "shadowStone": "魔防壳"
         },
         {
-          "id": 80,
+          "id": 20,
           "name": "铁巨人",
-          "group": 2,
+          "group": 7,
           "location": [
             "大桥(隐藏点)"
           ],
@@ -251,12 +364,12 @@
       ]
     },
     {
-      "id": 3,
+      "id": 8,
       "list": [
         {
-          "id": 4,
+          "id": 21,
           "name": "漂浮魔球",
-          "group": 3,
+          "group": 8,
           "location": [
             "涅布拉洞窟",
             "萨罗尼亚港"
@@ -273,9 +386,9 @@
           ]
         },
         {
-          "id": 34,
+          "id": 22,
           "name": "恶精灵",
-          "group": 3,
+          "group": 8,
           "location": [
             "萨罗尼亚港"
           ],
@@ -290,11 +403,11 @@
             "治疗剂"
           ],
           "shadowStone": "驱魔"
-        },   {
-          "id": 41,
+        },
+        {
+          "id": 23,
           "name": "血腥赤眼",
-          "group": 3,
-          "transType":1,
+          "group": 8,
           "location": [
             "翼龙溪谷",
             "第七峡谷"
@@ -308,10 +421,9 @@
           "drop": []
         },
         {
-          "id": 119,
+          "id": 24,
           "name": "布耶尔",
-          "group": 3,
-          "transType":1,
+          "group": 8,
           "location": [
             "斗技场"
           ],
@@ -328,12 +440,12 @@
       ]
     },
     {
-      "id": 4,
+      "id": 9,
       "list": [
         {
-          "id": 5,
+          "id": 25,
           "name": "曼德拉草",
-          "group": 4,
+          "group": 9,
           "location": [
             "涅布拉洞窟",
             "进击的平原"
@@ -347,9 +459,9 @@
           "drop": []
         },
         {
-          "id": 52,
+          "id": 26,
           "name": "毛尔波尔",
-          "group": 4,
+          "group": 9,
           "location": [
             "刮风湿地"
           ],
@@ -367,12 +479,12 @@
       ]
     },
     {
-      "id": 5,
+      "id": 10,
       "list": [
         {
-          "id": 6,
+          "id": 27,
           "name": "迷你魔像",
-          "group": 5,
+          "group": 10,
           "location": [
             "涅布拉洞窟",
             "翼龙溪谷"
@@ -390,19 +502,19 @@
       ]
     },
     {
-      "id": 6,
+      "id": 11,
       "list": [
         {
-          "id": 7,
+          "id": 28,
           "name": "伊弗仔",
-          "group": 6,
+          "group": 11,
           "location": [
             "涅布拉洞窟(隐藏点)"
           ],
           "catchCondition": "受到火属性攻击",
           "transformTo": [
-            "伊弗利特☆",
             "伊弗利",
+            "伊弗利特☆",
             "伊弗利妲☆"
           ],
           "size": "S",
@@ -410,9 +522,9 @@
           "drop": []
         },
         {
-          "id": 131,
+          "id": 29,
           "name": "伊弗利特☆",
-          "group": 6,
+          "group": 11,
           "location": [
             "斗技场"
           ],
@@ -428,9 +540,9 @@
           "drop": []
         },
         {
-          "id": 136,
+          "id": 30,
           "name": "伊弗利妲☆",
-          "group": 6,
+          "group": 11,
           "location": [
             "斗技场"
           ],
@@ -447,9 +559,9 @@
           "shadowStone": "火抗性小提升"
         },
         {
-          "id": 180,
+          "id": 31,
           "name": "伊弗利",
-          "group": 6,
+          "group": 11,
           "location": [],
           "transformTo": [
             "伊弗仔",
@@ -464,12 +576,59 @@
       ]
     },
     {
-      "id": 7,
+      "id": 12,
       "list": [
         {
-          "id": 8,
+          "id": 32,
+          "name": "伊弗利特☆",
+          "group": 12,
+          "location": [
+            "斗技场"
+          ],
+          "catchCondition": "受到火属性攻击",
+          "transformCondition": "斗技场",
+          "transformTo": [
+            "伊弗仔",
+            "伊弗利",
+            "伊弗利妲☆"
+          ],
+          "size": "L",
+          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606570.jpg",
+          "drop": []
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "list": [
+        {
+          "id": 33,
+          "name": "伊弗利妲☆",
+          "group": 13,
+          "location": [
+            "斗技场"
+          ],
+          "catchCondition": "受到火属性攻击",
+          "transformCondition": "心灵任务:炎之特训篇",
+          "transformTo": [
+            "伊弗仔",
+            "伊弗利",
+            "伊弗利特☆"
+          ],
+          "size": "L",
+          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606575.jpg",
+          "drop": [],
+          "shadowStone": "火抗性小提升"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "list": [
+        {
+          "id": 34,
           "name": "冰利査",
-          "group": 7,
+          "group": 14,
           "location": [
             "涅布拉洞窟(隐藏点)"
           ],
@@ -487,9 +646,9 @@
           ]
         },
         {
-          "id": 132,
+          "id": 35,
           "name": "湿婆☆",
-          "group": 7,
+          "group": 14,
           "location": [
             "斗技场"
           ],
@@ -506,9 +665,9 @@
           "shadowStone": "缓慢抗性"
         },
         {
-          "id": 135,
+          "id": 36,
           "name": "湿伯☆",
-          "group": 7,
+          "group": 14,
           "location": [
             "斗技场"
           ],
@@ -525,9 +684,9 @@
           "shadowStone": "冰抗性小提升"
         },
         {
-          "id": 181,
+          "id": 37,
           "name": "湿婆宝宝",
-          "group": 7,
+          "group": 14,
           "location": [],
           "transformTo": [
             "冰利査",
@@ -542,12 +701,60 @@
       ]
     },
     {
-      "id": 8,
+      "id": 15,
       "list": [
         {
-          "id": 9,
+          "id": 38,
+          "name": "湿婆☆",
+          "group": 15,
+          "location": [
+            "斗技场"
+          ],
+          "catchCondition": "受到冰属性攻击",
+          "transformCondition": "斗技场",
+          "transformTo": [
+            "冰利査",
+            "湿婆宝宝",
+            "湿伯☆"
+          ],
+          "size": "L",
+          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606571.jpg",
+          "drop": [],
+          "shadowStone": "缓慢抗性"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "list": [
+        {
+          "id": 39,
+          "name": "湿伯☆",
+          "group": 16,
+          "location": [
+            "斗技场"
+          ],
+          "catchCondition": "受到冰属性攻击",
+          "transformCondition": "心灵任务:冰冷的正义篇",
+          "transformTo": [
+            "冰利査",
+            "湿婆宝宝",
+            "湿婆☆"
+          ],
+          "size": "L",
+          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606574.jpg",
+          "drop": [],
+          "shadowStone": "冰抗性小提升"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "list": [
+        {
+          "id": 40,
           "name": "尚电",
-          "group": 8,
+          "group": 17,
           "location": [
             "涅布拉洞窟(隐藏点)"
           ],
@@ -562,9 +769,9 @@
           "drop": []
         },
         {
-          "id": 133,
+          "id": 41,
           "name": "拉姆☆",
-          "group": 8,
+          "group": 17,
           "location": [
             "斗技场"
           ],
@@ -581,9 +788,9 @@
           "shadowStone": "大雷电"
         },
         {
-          "id": 166,
+          "id": 42,
           "name": "拉缪☆",
-          "group": 8,
+          "group": 17,
           "location": [],
           "transformCondition": "心灵任务:五大魔震·科内利亚篇",
           "transformTo": [
@@ -597,9 +804,9 @@
           "shadowStone": "魔法攻击下降抗性"
         },
         {
-          "id": 182,
+          "id": 43,
           "name": "尚电小子",
-          "group": 8,
+          "group": 17,
           "location": [],
           "transformTo": [
             "尚电",
@@ -614,12 +821,57 @@
       ]
     },
     {
-      "id": 9,
+      "id": 18,
       "list": [
         {
-          "id": 10,
+          "id": 44,
+          "name": "拉姆☆",
+          "group": 18,
+          "location": [
+            "斗技场"
+          ],
+          "catchCondition": "受到雷属性攻击",
+          "transformCondition": "斗技场",
+          "transformTo": [
+            "尚电",
+            "尚电小子",
+            "拉缪☆"
+          ],
+          "size": "L",
+          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606572.jpg",
+          "drop": [],
+          "shadowStone": "大雷电"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "list": [
+        {
+          "id": 45,
+          "name": "拉缪☆",
+          "group": 19,
+          "location": [],
+          "transformCondition": "心灵任务:五大魔震·科内利亚篇",
+          "transformTo": [
+            "尚电",
+            "尚电小子",
+            "拉姆☆"
+          ],
+          "size": "L",
+          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606518.jpg",
+          "drop": [],
+          "shadowStone": "魔法攻击下降抗性"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "list": [
+        {
+          "id": 46,
           "name": "哥布林",
-          "group": 9,
+          "group": 20,
           "location": [
             "进击的平原",
             "超绝九垓城"
@@ -637,9 +889,9 @@
           ]
         },
         {
-          "id": 11,
+          "id": 47,
           "name": "哥布林守卫",
-          "group": 9,
+          "group": 20,
           "location": [
             "进击的平原"
           ],
@@ -654,9 +906,9 @@
           "shadowStone": "物防护"
         },
         {
-          "id": 16,
+          "id": 48,
           "name": "哥布林公主☆",
-          "group": 9,
+          "group": 20,
           "location": [
             "进击的平原外"
           ],
@@ -674,12 +926,35 @@
       ]
     },
     {
-      "id": 10,
+      "id": 21,
       "list": [
         {
-          "id": 12,
+          "id": 49,
+          "name": "哥布林公主☆",
+          "group": 21,
+          "location": [
+            "进击的平原外"
+          ],
+          "catchCondition": "陷入黑暗状态",
+          "transformCondition": "心灵任务:逼婚篇",
+          "transformTo": [
+            "哥布林",
+            "哥布林守卫"
+          ],
+          "size": "M",
+          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635786345.jpg",
+          "drop": [],
+          "shadowStone": "魔法防御下降抗性"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "list": [
+        {
+          "id": 50,
           "name": "红帽哥布林",
-          "group": 10,
+          "group": 22,
           "location": [
             "进击的平原",
             "列车坟场(黑块)",
@@ -698,9 +973,9 @@
           "shadowStone": "火焰"
         },
         {
-          "id": 13,
+          "id": 51,
           "name": "红帽哥布林守卫",
-          "group": 10,
+          "group": 22,
           "location": [
             "进击的平原",
             "锁链大道"
@@ -716,12 +991,12 @@
       ]
     },
     {
-      "id": 11,
+      "id": 23,
       "list": [
         {
-          "id": 14,
+          "id": 52,
           "name": "凶恶巨兽宝宝",
-          "group": 11,
+          "group": 23,
           "location": [
             "进击的平原",
             "冰柱悬崖",
@@ -740,9 +1015,9 @@
           ]
         },
         {
-          "id": 45,
+          "id": 53,
           "name": "凶恶巨兽",
-          "group": 11,
+          "group": 23,
           "location": [
             "第七峡谷"
           ],
@@ -760,9 +1035,9 @@
           "shadowStone": "力量小提升"
         },
         {
-          "id": 118,
+          "id": 54,
           "name": "利爪凶恶巨兽",
-          "group": 11,
+          "group": 23,
           "location": [
             "超绝九垓城"
           ],
@@ -781,12 +1056,12 @@
       ]
     },
     {
-      "id": 12,
+      "id": 24,
       "list": [
         {
-          "id": 15,
+          "id": 55,
           "name": "黑纳克",
-          "group": 12,
+          "group": 24,
           "location": [
             "进击的平原",
             "第七峡谷"
@@ -803,9 +1078,9 @@
           ]
         },
         {
-          "id": 167,
+          "id": 56,
           "name": "圣魔狼",
-          "group": 12,
+          "group": 24,
           "location": [],
           "transformTo": [
             "黑纳克"
@@ -818,12 +1093,12 @@
       ]
     },
     {
-      "id": 14,
+      "id": 25,
       "list": [
         {
-          "id": 18,
+          "id": 57,
           "name": "右钩爪",
-          "group": 14,
+          "group": 25,
           "location": [
             "冰柱悬崖",
             "灯火之森"
@@ -839,10 +1114,9 @@
           "shadowStone": "雷电"
         },
         {
-          "id": 28,
+          "id": 58,
           "name": "左钩爪",
-          "group": 14,
-          "transType":1,
+          "group": 25,
           "location": [
             "冰柱悬崖",
             "第七峡谷"
@@ -857,12 +1131,12 @@
       ]
     },
     {
-      "id": 15,
+      "id": 26,
       "list": [
         {
-          "id": 19,
+          "id": 59,
           "name": "死亡骷髅",
-          "group": 15,
+          "group": 26,
           "location": [
             "冰柱悬崖",
             "灯火之森"
@@ -876,9 +1150,9 @@
           "drop": []
         },
         {
-          "id": 27,
+          "id": 60,
           "name": "高贵活尸☆",
-          "group": 15,
+          "group": 26,
           "location": [
             "冰锥区域"
           ],
@@ -895,12 +1169,34 @@
       ]
     },
     {
-      "id": 16,
+      "id": 27,
       "list": [
         {
-          "id": 20,
+          "id": 61,
+          "name": "高贵活尸☆",
+          "group": 27,
+          "location": [
+            "冰锥区域"
+          ],
+          "catchCondition": "受到光属性攻击",
+          "transformCondition": "心灵任务:狠心人篇",
+          "transformTo": [
+            "死亡骷髅"
+          ],
+          "size": "L",
+          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606578.jpg",
+          "drop": [],
+          "shadowStone": "忘却抗性"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "list": [
+        {
+          "id": 62,
           "name": "石化鸡蛇",
-          "group": 16,
+          "group": 28,
           "location": [
             "灯火之森"
           ],
@@ -913,9 +1209,9 @@
           "drop": []
         },
         {
-          "id": 168,
+          "id": 63,
           "name": "瓦尔法雷",
-          "group": 16,
+          "group": 28,
           "location": [],
           "transformCondition": "5幕BOSS",
           "transformTo": [
@@ -929,12 +1225,12 @@
       ]
     },
     {
-      "id": 17,
+      "id": 29,
       "list": [
         {
-          "id": 21,
+          "id": 64,
           "name": "二头蜥蜴",
-          "group": 17,
+          "group": 29,
           "location": [
             "灯火之森",
             "萨罗尼亚港"
@@ -952,9 +1248,9 @@
           ]
         },
         {
-          "id": 106,
+          "id": 65,
           "name": "三头水蛇",
-          "group": 17,
+          "group": 29,
           "location": [
             "锁链大道"
           ],
@@ -971,9 +1267,9 @@
           "shadowStone": "风抗性小提升"
         },
         {
-          "id": 121,
+          "id": 66,
           "name": "提亚马特",
-          "group": 17,
+          "group": 29,
           "location": [
             "斗技场"
           ],
@@ -990,12 +1286,12 @@
       ]
     },
     {
-      "id": 19,
+      "id": 30,
       "list": [
         {
-          "id": 23,
+          "id": 67,
           "name": "莫古利",
-          "group": 19,
+          "group": 30,
           "location": [
             "灯火之森",
             "水晶之塔"
@@ -1011,9 +1307,9 @@
           "shadowStone": "疗伤"
         },
         {
-          "id": 36,
+          "id": 68,
           "name": "海莫古利",
-          "group": 19,
+          "group": 30,
           "location": [
             "萨罗尼亚港"
           ],
@@ -1027,9 +1323,9 @@
           "drop": []
         },
         {
-          "id": 38,
+          "id": 69,
           "name": "汪洋莫古利",
-          "group": 19,
+          "group": 30,
           "location": [
             "萨罗尼亚港隐藏区域"
           ],
@@ -1049,12 +1345,12 @@
       ]
     },
     {
-      "id": 20,
+      "id": 31,
       "list": [
         {
-          "id": 24,
+          "id": 70,
           "name": "仙入掌怪",
-          "group": 20,
+          "group": 31,
           "location": [
             "灯火之森"
           ],
@@ -1071,9 +1367,9 @@
           "shadowStone": "命中小提升"
         },
         {
-          "id": 73,
+          "id": 71,
           "name": "仙入掌巨怪",
-          "group": 20,
+          "group": 31,
           "location": [
             "零号魔光炉(隐藏区域)"
           ],
@@ -1084,16 +1380,16 @@
           "size": "L",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606533.jpg",
           "drop": []
-            }
+        }
       ]
     },
     {
-      "id": 22,
+      "id": 32,
       "list": [
         {
-          "id": 26,
+          "id": 72,
           "name": "鲛鲨",
-          "group": 22,
+          "group": 32,
           "location": [
             "萨罗尼亚港",
             "海底神殿",
@@ -1112,9 +1408,9 @@
           ]
         },
         {
-          "id": 173,
+          "id": 73,
           "name": "重型鲛鲨",
-          "group": 22,
+          "group": 32,
           "location": [],
           "catchCondition": "一击受到大伤害",
           "transformTo": [
@@ -1130,9 +1426,9 @@
           "shadowStone": "暴击小提升"
         },
         {
-          "id": 187,
+          "id": 74,
           "name": "俾斯麦",
-          "group": 22,
+          "group": 32,
           "location": [],
           "transformTo": [
             "鲛鲨",
@@ -1144,14 +1440,13 @@
         }
       ]
     },
-
     {
-      "id": 24,
+      "id": 33,
       "list": [
         {
-          "id": 29,
+          "id": 75,
           "name": "白纳克",
-          "group": 24,
+          "group": 33,
           "location": [
             "冰柱悬崖"
           ],
@@ -1165,9 +1460,9 @@
           "drop": []
         },
         {
-          "id": 44,
+          "id": 76,
           "name": "地狱三头犬",
-          "group": 24,
+          "group": 33,
           "location": [
             "翼龙溪谷(隐藏点)"
           ],
@@ -1184,9 +1479,9 @@
           ]
         },
         {
-          "id": 120,
+          "id": 77,
           "name": "魔狼",
-          "group": 24,
+          "group": 33,
           "location": [
             "斗技场"
           ],
@@ -1204,12 +1499,12 @@
       ]
     },
     {
-      "id": 25,
+      "id": 34,
       "list": [
         {
-          "id": 30,
+          "id": 78,
           "name": "亚秋秋",
-          "group": 25,
+          "group": 34,
           "location": [
             "冰柱悬崖",
             "海底神殿"
@@ -1224,12 +1519,12 @@
       ]
     },
     {
-      "id": 26,
+      "id": 35,
       "list": [
         {
-          "id": 31,
+          "id": 79,
           "name": "怀顿宝宝",
-          "group": 26,
+          "group": 35,
           "location": [
             "冰柱悬崖"
           ],
@@ -1243,9 +1538,9 @@
           "drop": []
         },
         {
-          "id": 100,
+          "id": 80,
           "name": "怀顿",
-          "group": 26,
+          "group": 35,
           "location": [
             "水晶之塔"
           ],
@@ -1262,9 +1557,9 @@
           "shadowStone": "中放逐"
         },
         {
-          "id": 111,
+          "id": 81,
           "name": "怀顿国王",
-          "group": 26,
+          "group": 35,
           "location": [
             "锁链大道(隐藏区域)"
           ],
@@ -1282,12 +1577,12 @@
       ]
     },
     {
-      "id": 27,
+      "id": 36,
       "list": [
         {
-          "id": 32,
+          "id": 82,
           "name": "冰蝙蝠",
-          "group": 27,
+          "group": 36,
           "location": [
             "冰柱悬崖"
           ],
@@ -1300,9 +1595,9 @@
           "drop": []
         },
         {
-          "id": 85,
+          "id": 83,
           "name": "半吸血鬼",
-          "group": 27,
+          "group": 36,
           "location": [
             "列车坟场"
           ],
@@ -1321,12 +1616,12 @@
       ]
     },
     {
-      "id": 28,
+      "id": 37,
       "list": [
         {
-          "id": 33,
+          "id": 84,
           "name": "神圣龙",
-          "group": 28,
+          "group": 37,
           "location": [
             "冰柱悬崖(隐藏区域)"
           ],
@@ -1341,9 +1636,9 @@
           "shadowStone": "神圣"
         },
         {
-          "id": 66,
+          "id": 85,
           "name": "雾龙",
-          "group": 28,
+          "group": 37,
           "location": [
             "地底监狱(隐藏点)"
           ],
@@ -1361,12 +1656,12 @@
       ]
     },
     {
-      "id": 29,
+      "id": 38,
       "list": [
         {
-          "id": 35,
+          "id": 86,
           "name": "模仿怪",
-          "group": 29,
+          "group": 38,
           "location": [
             "萨罗尼亚港"
           ],
@@ -1384,9 +1679,9 @@
           "shadowStone": "吸魔"
         },
         {
-          "id": 77,
+          "id": 87,
           "name": "魔法瓮",
-          "group": 29,
+          "group": 38,
           "location": [
             "大桥"
           ],
@@ -1400,9 +1695,9 @@
           "drop": []
         },
         {
-          "id": 170,
+          "id": 88,
           "name": "模仿怪皇后",
-          "group": 29,
+          "group": 38,
           "location": [],
           "transformCondition": "心灵任务:我讨厌打雷篇",
           "transformTo": [
@@ -1414,10 +1709,9 @@
           "drop": []
         },
         {
-          "id": 25,
+          "id": 89,
           "name": "魔法罐",
-          "group": 29,
-          "transType":1,
+          "group": 38,
           "location": [
             "灯火之森"
           ],
@@ -1430,10 +1724,9 @@
           "drop": []
         },
         {
-          "id": 68,
+          "id": 90,
           "name": "黄金模仿怪",
-          "group": 29,
-          "transType":1,
+          "group": 38,
           "location": [
             "零号魔光炉"
           ],
@@ -1450,12 +1743,12 @@
       ]
     },
     {
-      "id": 30,
+      "id": 39,
       "list": [
         {
-          "id": 37,
+          "id": 91,
           "name": "迷你布丁",
-          "group": 30,
+          "group": 39,
           "location": [
             "萨罗尼亚港",
             "刮风湿地"
@@ -1472,9 +1765,9 @@
           ]
         },
         {
-          "id": 54,
+          "id": 92,
           "name": "布丁",
-          "group": 30,
+          "group": 39,
           "location": [
             "刮风湿地"
           ],
@@ -1491,9 +1784,9 @@
           "shadowStone": "昏眩取消"
         },
         {
-          "id": 57,
+          "id": 93,
           "name": "布丁公主",
-          "group": 30,
+          "group": 39,
           "location": [
             "刮风湿地(隐藏点)"
           ],
@@ -1512,12 +1805,12 @@
       ]
     },
     {
-      "id": 31,
+      "id": 40,
       "list": [
         {
-          "id": 39,
+          "id": 94,
           "name": "小玳瑁龟",
-          "group": 31,
+          "group": 40,
           "location": [
             "下海",
             "斗技场"
@@ -1533,9 +1826,9 @@
           ]
         },
         {
-          "id": 144,
+          "id": 95,
           "name": "坚壳玳瑁龟",
-          "group": 31,
+          "group": 40,
           "location": [
             "斗技场"
           ],
@@ -1553,12 +1846,12 @@
       ]
     },
     {
-      "id": 32,
+      "id": 41,
       "list": [
         {
-          "id": 40,
+          "id": 96,
           "name": "红龙",
-          "group": 32,
+          "group": 41,
           "location": [
             "翼龙溪谷",
             "第七峡谷"
@@ -1575,9 +1868,9 @@
           ]
         },
         {
-          "id": 43,
+          "id": 97,
           "name": "闪光龙",
-          "group": 32,
+          "group": 41,
           "location": [
             "翼龙溪谷",
             "第七峡谷"
@@ -1593,12 +1886,12 @@
       ]
     },
     {
-      "id": 34,
+      "id": 42,
       "list": [
         {
-          "id": 42,
+          "id": 98,
           "name": "双头龙",
-          "group": 34,
+          "group": 42,
           "location": [
             "翼龙溪谷",
             "零号魔光炉"
@@ -1614,7 +1907,7 @@
         {
           "id": 99,
           "name": "海德拉",
-          "group": 34,
+          "group": 42,
           "location": [
             "水晶之塔"
           ],
@@ -1632,12 +1925,12 @@
       ]
     },
     {
-      "id": 35,
+      "id": 43,
       "list": [
         {
-          "id": 46,
+          "id": 100,
           "name": "铅小人",
-          "group": 35,
+          "group": 43,
           "location": [
             "第七峡谷",
             "锁链大道"
@@ -1651,9 +1944,9 @@
           "drop": []
         },
         {
-          "id": 81,
+          "id": 101,
           "name": "铬巨人",
-          "group": 35,
+          "group": 43,
           "location": [
             "列车坟场"
           ],
@@ -1671,12 +1964,12 @@
       ]
     },
     {
-      "id": 36,
+      "id": 44,
       "list": [
         {
-          "id": 47,
+          "id": 102,
           "name": "德利尤",
-          "group": 36,
+          "group": 44,
           "location": [
             "第七峡谷",
             "幻影砂漠"
@@ -1690,9 +1983,9 @@
           "drop": []
         },
         {
-          "id": 169,
+          "id": 103,
           "name": "尼尔瓦雷",
-          "group": 36,
+          "group": 44,
           "location": [],
           "transformTo": [
             "德利尤"
@@ -1704,12 +1997,12 @@
       ]
     },
     {
-      "id": 37,
+      "id": 45,
       "list": [
         {
-          "id": 48,
+          "id": 104,
           "name": "炸弹",
-          "group": 37,
+          "group": 45,
           "location": [
             "第七峡谷",
             "水晶之塔"
@@ -1727,9 +2020,9 @@
           ]
         },
         {
-          "id": 70,
+          "id": 105,
           "name": "微炸弹",
-          "group": 37,
+          "group": 45,
           "location": [
             "大桥",
             "零号魔光炉"
@@ -1744,9 +2037,9 @@
           "drop": []
         },
         {
-          "id": 174,
+          "id": 106,
           "name": "炸弹王",
-          "group": 37,
+          "group": 45,
           "location": [],
           "catchCondition": "降低其HP",
           "transformCondition": "11幕BOSS",
@@ -1762,12 +2055,12 @@
       ]
     },
     {
-      "id": 38,
+      "id": 46,
       "list": [
         {
-          "id": 49,
+          "id": 107,
           "name": "木精",
-          "group": 38,
+          "group": 46,
           "location": [
             "第七峡谷",
             "列车坟场(黑块)",
@@ -1785,9 +2078,9 @@
           ]
         },
         {
-          "id": 56,
+          "id": 108,
           "name": "极恶毛尔波尔",
-          "group": 38,
+          "group": 46,
           "location": [
             "刮风湿地(隐藏点)"
           ],
@@ -1806,12 +2099,12 @@
       ]
     },
     {
-      "id": 39,
+      "id": 47,
       "list": [
         {
-          "id": 50,
+          "id": 109,
           "name": "圆玳瑁龟",
-          "group": 39,
+          "group": 47,
           "location": [
             "第七峡谷"
           ],
@@ -1826,12 +2119,12 @@
       ]
     },
     {
-      "id": 40,
+      "id": 48,
       "list": [
         {
-          "id": 51,
+          "id": 110,
           "name": "凤凰",
-          "group": 40,
+          "group": 48,
           "location": [
             "第七峡谷(隐藏区域)"
           ],
@@ -1848,12 +2141,12 @@
       ]
     },
     {
-      "id": 41,
+      "id": 49,
       "list": [
         {
-          "id": 55,
+          "id": 111,
           "name": "水蛙",
-          "group": 41,
+          "group": 49,
           "location": [
             "刮风湿地"
           ],
@@ -1868,9 +2161,9 @@
           ]
         },
         {
-          "id": 109,
+          "id": 112,
           "name": "幸运蛙",
-          "group": 41,
+          "group": 49,
           "location": [
             "锁链大道",
             "斗技场"
@@ -1890,12 +2183,12 @@
       ]
     },
     {
-      "id": 42,
+      "id": 50,
       "list": [
         {
-          "id": 58,
+          "id": 113,
           "name": "史芬杰斯",
-          "group": 42,
+          "group": 50,
           "location": [
             "幻影砂漠"
           ],
@@ -1909,9 +2202,9 @@
           "shadowStone": "复活"
         },
         {
-          "id": 62,
+          "id": 114,
           "name": "蝎尾桑",
-          "group": 42,
+          "group": 50,
           "location": [
             "幻影砂漠"
           ],
@@ -1928,12 +2221,12 @@
       ]
     },
     {
-      "id": 43,
+      "id": 51,
       "list": [
         {
-          "id": 59,
+          "id": 115,
           "name": "沙蠕虫",
-          "group": 43,
+          "group": 51,
           "location": [
             "幻影砂漠",
             "水晶之塔"
@@ -1951,12 +2244,12 @@
       ]
     },
     {
-      "id": 44,
+      "id": 52,
       "list": [
         {
-          "id": 61,
+          "id": 116,
           "name": "仙人掌怪",
-          "group": 44,
+          "group": 52,
           "location": [
             "幻影砂漠",
             "斗技场"
@@ -1973,9 +2266,9 @@
           ]
         },
         {
-          "id": 72,
+          "id": 117,
           "name": "仙人掌巨怪",
-          "group": 44,
+          "group": 52,
           "location": [
             "零号魔光炉(隐藏区域)"
           ],
@@ -1995,12 +2288,12 @@
       ]
     },
     {
-      "id": 45,
+      "id": 53,
       "list": [
         {
-          "id": 63,
+          "id": 118,
           "name": "史芬克斯",
-          "group": 45,
+          "group": 53,
           "location": [
             "幻影砂漠(隐藏区域)"
           ],
@@ -2015,9 +2308,9 @@
           "shadowStone": "混乱"
         },
         {
-          "id": 87,
+          "id": 119,
           "name": "蝎尾狮",
-          "group": 45,
+          "group": 53,
           "location": [
             "列车坟场(黑块)",
             "锁链大道"
@@ -2035,12 +2328,12 @@
       ]
     },
     {
-      "id": 46,
+      "id": 54,
       "list": [
         {
-          "id": 64,
+          "id": 120,
           "name": "魔导装甲",
-          "group": 46,
+          "group": 54,
           "location": [
             "地底监狱",
             "零号魔光炉"
@@ -2055,9 +2348,9 @@
           "drop": []
         },
         {
-          "id": 65,
+          "id": 121,
           "name": "搜索机",
-          "group": 46,
+          "group": 54,
           "location": [
             "地底监狱",
             "零号魔光炉"
@@ -2075,9 +2368,9 @@
           ]
         },
         {
-          "id": 67,
+          "id": 122,
           "name": "死亡机器R",
-          "group": 46,
+          "group": 54,
           "location": [
             "零号魔光炉"
           ],
@@ -2094,12 +2387,12 @@
       ]
     },
     {
-      "id": 47,
+      "id": 55,
       "list": [
         {
-          "id": 69,
+          "id": 123,
           "name": "蝙蝠人",
-          "group": 47,
+          "group": 55,
           "location": [
             "列车坟场",
             "零号魔光炉"
@@ -2114,9 +2407,9 @@
           "drop": []
         },
         {
-          "id": 84,
+          "id": 124,
           "name": "吸血鬼",
-          "group": 47,
+          "group": 55,
           "location": [
             "列车坟场"
           ],
@@ -2131,9 +2424,9 @@
           "shadowStone": "暗抗性小提升"
         },
         {
-          "id": 172,
+          "id": 125,
           "name": "吸血鬼始祖",
-          "group": 47,
+          "group": 55,
           "location": [
             "斗技场"
           ],
@@ -2150,12 +2443,12 @@
       ]
     },
     {
-      "id": 48,
+      "id": 56,
       "list": [
         {
-          "id": 71,
+          "id": 126,
           "name": "小恶魔",
-          "group": 48,
+          "group": 56,
           "location": [
             "零号魔光炉"
           ],
@@ -2172,12 +2465,12 @@
       ]
     },
     {
-      "id": 49,
+      "id": 57,
       "list": [
         {
-          "id": 75,
+          "id": 127,
           "name": "幼库拉",
-          "group": 49,
+          "group": 57,
           "location": [
             "大桥"
           ],
@@ -2192,12 +2485,12 @@
       ]
     },
     {
-      "id": 50,
+      "id": 58,
       "list": [
         {
-          "id": 76,
+          "id": 128,
           "name": "牛头哥",
-          "group": 50,
+          "group": 58,
           "location": [
             "大桥"
           ],
@@ -2210,9 +2503,9 @@
           "drop": []
         },
         {
-          "id": 107,
+          "id": 129,
           "name": "牛头怪",
-          "group": 50,
+          "group": 58,
           "location": [
             "锁链大道"
           ],
@@ -2231,12 +2524,12 @@
       ]
     },
     {
-      "id": 51,
+      "id": 59,
       "list": [
         {
-          "id": 78,
+          "id": 130,
           "name": "提灯怪宝宝",
-          "group": 51,
+          "group": 59,
           "location": [
             "大桥",
             "海底神殿"
@@ -2251,9 +2544,9 @@
           "drop": []
         },
         {
-          "id": 91,
+          "id": 131,
           "name": "提灯怪",
-          "group": 51,
+          "group": 59,
           "location": [
             "海底神殿"
           ],
@@ -2270,9 +2563,9 @@
           "shadowStone": "暴击小提升"
         },
         {
-          "id": 171,
+          "id": 132,
           "name": "提灯怪国王",
-          "group": 51,
+          "group": 59,
           "location": [],
           "transformCondition": "18幕BOSS",
           "transformTo": [
@@ -2286,12 +2579,12 @@
       ]
     },
     {
-      "id": 52,
+      "id": 60,
       "list": [
         {
-          "id": 79,
+          "id": 133,
           "name": "小顽童",
-          "group": 52,
+          "group": 60,
           "location": [
             "大桥",
             "列车坟场"
@@ -2309,9 +2602,9 @@
           "shadowStone": "睡眠"
         },
         {
-          "id": 188,
+          "id": 134,
           "name": "迪亚布罗斯",
-          "group": 52,
+          "group": 60,
           "location": [],
           "transformTo": [
             "小顽童"
@@ -2323,12 +2616,12 @@
       ]
     },
     {
-      "id": 53,
+      "id": 61,
       "list": [
         {
-          "id": 83,
+          "id": 135,
           "name": "毛尔骷髅",
-          "group": 53,
+          "group": 61,
           "location": [
             "列车坟场"
           ],
@@ -2344,12 +2637,12 @@
       ]
     },
     {
-      "id": 54,
+      "id": 62,
       "list": [
         {
-          "id": 86,
+          "id": 136,
           "name": "噩梦",
-          "group": 54,
+          "group": 62,
           "location": [
             "列车坟场(黑块)"
           ],
@@ -2363,12 +2656,12 @@
       ]
     },
     {
-      "id": 55,
+      "id": 63,
       "list": [
         {
-          "id": 88,
+          "id": 137,
           "name": "重型夜鲛",
-          "group": 55,
+          "group": 63,
           "location": [
             "海底神殿"
           ],
@@ -2381,9 +2674,9 @@
           "drop": []
         },
         {
-          "id": 92,
+          "id": 138,
           "name": "夜鲛",
-          "group": 55,
+          "group": 63,
           "location": [
             "海底神殿"
           ],
@@ -2399,12 +2692,12 @@
       ]
     },
     {
-      "id": 56,
+      "id": 64,
       "list": [
         {
-          "id": 89,
+          "id": 139,
           "name": "海蠕虫",
-          "group": 56,
+          "group": 64,
           "location": [
             "海底神殿",
             "水晶之塔"
@@ -2422,12 +2715,28 @@
       ]
     },
     {
-      "id": 57,
+      "id": 65,
       "list": [
         {
-          "id": 90,
+          "id": 140,
+          "name": "亚秋",
+          "group": 65,
+          "location": [
+            "海底神殿"
+          ],
+          "catchCondition": "为其回复HP",
+          "transformTo": [
+            "亚秋女王☆"
+          ],
+          "size": "S",
+          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635821922.jpg",
+          "drop": [],
+          "shadowStone": "水花"
+        },
+        {
+          "id": 141,
           "name": "亚秋女王☆",
-          "group": 57,
+          "group": 65,
           "location": [
             "海底神殿"
           ],
@@ -2440,32 +2749,38 @@
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606576.jpg",
           "drop": [],
           "shadowStone": "大水花"
-        },
-        {
-          "id": 95,
-          "name": "亚秋",
-          "group": 57,
-          "location": [
-            "海底神殿"
-          ],
-          "catchCondition": "为其回复HP",
-          "transformTo": [
-            "亚秋女王☆"
-          ],
-          "size": "S",
-          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635821922.jpg",
-          "drop": [],
-          "shadowStone": "水花"
         }
       ]
     },
     {
-      "id": 58,
+      "id": 66,
       "list": [
         {
-          "id": 93,
+          "id": 142,
+          "name": "亚秋女王☆",
+          "group": 66,
+          "location": [
+            "海底神殿"
+          ],
+          "catchCondition": "为其回复HP",
+          "transformCondition": "18幕BOSS",
+          "transformTo": [
+            "亚秋"
+          ],
+          "size": "L",
+          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606576.jpg",
+          "drop": [],
+          "shadowStone": "大水花"
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "list": [
+        {
+          "id": 143,
           "name": "海蛇",
-          "group": 58,
+          "group": 67,
           "location": [
             "海底神殿"
           ],
@@ -2479,9 +2794,9 @@
           "shadowStone": "水花"
         },
         {
-          "id": 190,
+          "id": 144,
           "name": "利维坦☆",
-          "group": 58,
+          "group": 67,
           "location": [],
           "catchCondition": "少女房间灵魂任务先人的仇篇无法宝石化，战胜后获得庭院宝石",
           "transformTo": [
@@ -2495,12 +2810,31 @@
       ]
     },
     {
-      "id": 59,
+      "id": 68,
       "list": [
         {
-          "id": 94,
+          "id": 145,
+          "name": "利维坦☆",
+          "group": 68,
+          "location": [],
+          "catchCondition": "少女房间灵魂任务先人的仇篇无法宝石化，战胜后获得庭院宝石",
+          "transformTo": [
+            "海蛇"
+          ],
+          "size": "XL",
+          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635524594.jpg",
+          "drop": [],
+          "shadowStone": "水抗性小提升"
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "list": [
+        {
+          "id": 146,
           "name": "海鲛",
-          "group": 59,
+          "group": 69,
           "location": [
             "海底神殿"
           ],
@@ -2513,9 +2847,9 @@
           "drop": []
         },
         {
-          "id": 112,
+          "id": 147,
           "name": "艾勒士莫尔斯",
-          "group": 59,
+          "group": 69,
           "location": [
             "超绝九垓城"
           ],
@@ -2533,12 +2867,12 @@
       ]
     },
     {
-      "id": 60,
+      "id": 70,
       "list": [
         {
-          "id": 96,
+          "id": 148,
           "name": "夺心魔",
-          "group": 60,
+          "group": 70,
           "location": [
             "海底神殿(黑块)",
             "水晶之塔"
@@ -2555,9 +2889,9 @@
           ]
         },
         {
-          "id": 124,
+          "id": 149,
           "name": "克拉肯",
-          "group": 60,
+          "group": 70,
           "location": [
             "斗技场"
           ],
@@ -2573,9 +2907,9 @@
           "shadowStone": "大水花"
         },
         {
-          "id": 137,
+          "id": 150,
           "name": "欧特洛斯☆",
-          "group": 60,
+          "group": 70,
           "location": [
             "斗技场"
           ],
@@ -2592,12 +2926,34 @@
       ]
     },
     {
-      "id": 61,
+      "id": 71,
       "list": [
         {
-          "id": 97,
+          "id": 151,
+          "name": "欧特洛斯☆",
+          "group": 71,
+          "location": [
+            "斗技场"
+          ],
+          "catchCondition": "我方只剩1名成员",
+          "transformTo": [
+            "夺心魔",
+            "克拉肯"
+          ],
+          "size": "L",
+          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606577.jpg",
+          "drop": [],
+          "shadowStone": "深渊"
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "list": [
+        {
+          "id": 152,
           "name": "鱿鱼妖",
-          "group": 61,
+          "group": 72,
           "location": [
             "海底神殿(黑块)"
           ],
@@ -2611,9 +2967,9 @@
           "shadowStone": "光抗性小提升"
         },
         {
-          "id": 125,
+          "id": 153,
           "name": "肯科斯",
-          "group": 61,
+          "group": 72,
           "location": [
             "斗技场"
           ],
@@ -2628,12 +2984,12 @@
       ]
     },
     {
-      "id": 62,
+      "id": 73,
       "list": [
         {
-          "id": 98,
+          "id": 154,
           "name": "库扎",
-          "group": 62,
+          "group": 73,
           "location": [
             "水晶之塔"
           ],
@@ -2650,12 +3006,12 @@
       ]
     },
     {
-      "id": 63,
+      "id": 74,
       "list": [
         {
-          "id": 101,
+          "id": 155,
           "name": "牛头姐",
-          "group": 63,
+          "group": 74,
           "location": [
             "水晶之塔"
           ],
@@ -2668,9 +3024,9 @@
           "drop": []
         },
         {
-          "id": 123,
+          "id": 156,
           "name": "阿斯忒里翁",
-          "group": 63,
+          "group": 74,
           "location": [
             "斗技场"
           ],
@@ -2686,12 +3042,12 @@
       ]
     },
     {
-      "id": 64,
+      "id": 75,
       "list": [
         {
-          "id": 102,
+          "id": 157,
           "name": "独角兽",
-          "group": 64,
+          "group": 75,
           "location": [
             "水晶之塔"
           ],
@@ -2708,9 +3064,9 @@
           "shadowStone": "治疗"
         },
         {
-          "id": 189,
+          "id": 158,
           "name": "奥丁",
-          "group": 64,
+          "group": 75,
           "location": [],
           "transformTo": [
             "独角兽"
@@ -2722,12 +3078,12 @@
       ]
     },
     {
-      "id": 65,
+      "id": 76,
       "list": [
         {
-          "id": 103,
+          "id": 159,
           "name": "水魔像",
-          "group": 65,
+          "group": 76,
           "location": [
             "水晶之塔"
           ],
@@ -2743,12 +3099,12 @@
       ]
     },
     {
-      "id": 66,
+      "id": 77,
       "list": [
         {
-          "id": 104,
+          "id": 160,
           "name": "风蛙",
-          "group": 66,
+          "group": 77,
           "location": [
             "水晶之塔"
           ],
@@ -2762,12 +3118,12 @@
       ]
     },
     {
-      "id": 67,
+      "id": 78,
       "list": [
         {
-          "id": 105,
+          "id": 161,
           "name": "泰坦",
-          "group": 67,
+          "group": 78,
           "location": [
             "水晶之塔(隐藏点)"
           ],
@@ -2783,9 +3139,9 @@
           ]
         },
         {
-          "id": 175,
+          "id": 162,
           "name": "马丁",
-          "group": 67,
+          "group": 78,
           "location": [],
           "catchCondition": "少女房间灵魂任务五大魔震费加罗篇的迷你游戏※全员生存状态10回合以内胜出解锁",
           "transformCondition": "心灵任务:五大魔震 费加罗篇",
@@ -2800,12 +3156,12 @@
       ]
     },
     {
-      "id": 68,
+      "id": 79,
       "list": [
         {
-          "id": 108,
+          "id": 163,
           "name": "矿坑飞车党(紫)",
-          "group": 68,
+          "group": 79,
           "location": [
             "锁链大道",
             "超绝九垓城"
@@ -2822,12 +3178,12 @@
       ]
     },
     {
-      "id": 69,
+      "id": 80,
       "list": [
         {
-          "id": 110,
+          "id": 164,
           "name": "监视眼",
-          "group": 69,
+          "group": 80,
           "location": [
             "锁链大道"
           ],
@@ -2843,9 +3199,9 @@
           ]
         },
         {
-          "id": 113,
+          "id": 165,
           "name": "魔导装甲A",
-          "group": 69,
+          "group": 80,
           "location": [
             "超绝九垓城"
           ],
@@ -2861,9 +3217,9 @@
           ]
         },
         {
-          "id": 122,
+          "id": 166,
           "name": "战争机器",
-          "group": 69,
+          "group": 80,
           "location": [
             "斗技场"
           ],
@@ -2879,12 +3235,12 @@
       ]
     },
     {
-      "id": 70,
+      "id": 81,
       "list": [
         {
-          "id": 114,
+          "id": 167,
           "name": "矿坑飞车党(黄)",
-          "group": 70,
+          "group": 81,
           "location": [
             "超绝九垓城"
           ],
@@ -2898,12 +3254,12 @@
       ]
     },
     {
-      "id": 71,
+      "id": 82,
       "list": [
         {
-          "id": 115,
+          "id": 168,
           "name": "矿坑飞车党(红)",
-          "group": 71,
+          "group": 82,
           "location": [
             "超绝九垓城"
           ],
@@ -2917,12 +3273,12 @@
       ]
     },
     {
-      "id": 72,
+      "id": 83,
       "list": [
         {
-          "id": 116,
+          "id": 169,
           "name": "虫护卫",
-          "group": 72,
+          "group": 83,
           "location": [
             "超绝九垓城"
           ],
@@ -2935,9 +3291,9 @@
           "drop": []
         },
         {
-          "id": 126,
+          "id": 170,
           "name": "欧米茄",
-          "group": 72,
+          "group": 83,
           "location": [
             "斗技场"
           ],
@@ -2952,12 +3308,12 @@
       ]
     },
     {
-      "id": 73,
+      "id": 84,
       "list": [
         {
-          "id": 117,
+          "id": 171,
           "name": "死亡搜索者",
-          "group": 73,
+          "group": 84,
           "location": [
             "超绝九垓城"
           ],
@@ -2972,12 +3328,12 @@
       ]
     },
     {
-      "id": 74,
+      "id": 85,
       "list": [
         {
-          "id": 127,
+          "id": 172,
           "name": "戴斯特欧米茄",
-          "group": 74,
+          "group": 85,
           "location": [
             "斗技场"
           ],
@@ -2991,9 +3347,9 @@
           "shadowStone": "防御中提升"
         },
         {
-          "id": 177,
+          "id": 173,
           "name": "虫兵",
-          "group": 74,
+          "group": 85,
           "location": [],
           "catchCondition": "受到火属性攻击",
           "transformTo": [
@@ -3006,12 +3362,12 @@
       ]
     },
     {
-      "id": 75,
+      "id": 86,
       "list": [
         {
-          "id": 128,
+          "id": 174,
           "name": "虫精英",
-          "group": 75,
+          "group": 86,
           "location": [
             "斗技场"
           ],
@@ -3024,12 +3380,12 @@
       ]
     },
     {
-      "id": 76,
+      "id": 87,
       "list": [
         {
-          "id": 129,
+          "id": 175,
           "name": "神臂战机,",
-          "group": 76,
+          "group": 87,
           "location": [
             "斗技场"
           ],
@@ -3042,12 +3398,12 @@
       ]
     },
     {
-      "id": 77,
+      "id": 88,
       "list": [
         {
-          "id": 130,
+          "id": 176,
           "name": "阿斯特赖亚        ,",
-          "group": 77,
+          "group": 88,
           "location": [
             "斗技场"
           ],
@@ -3060,12 +3416,12 @@
       ]
     },
     {
-      "id": 78,
+      "id": 89,
       "list": [
         {
-          "id": 138,
+          "id": 177,
           "name": "金属骷髅",
-          "group": 78,
+          "group": 89,
           "location": [
             "斗技场"
           ],
@@ -3080,12 +3436,12 @@
       ]
     },
     {
-      "id": 79,
+      "id": 90,
       "list": [
         {
-          "id": 139,
+          "id": 178,
           "name": "吉尔伽美什",
-          "group": 79,
+          "group": 90,
           "location": [
             "斗技场"
           ],
@@ -3098,12 +3454,12 @@
       ]
     },
     {
-      "id": 80,
+      "id": 91,
       "list": [
         {
-          "id": 140,
+          "id": 179,
           "name": "提灯怪大师",
-          "group": 80,
+          "group": 91,
           "location": [
             "斗技场"
           ],
@@ -3116,12 +3472,12 @@
       ]
     },
     {
-      "id": 81,
+      "id": 92,
       "list": [
         {
-          "id": 141,
+          "id": 180,
           "name": "魔像头",
-          "group": 81,
+          "group": 92,
           "location": [
             "斗技场"
           ],
@@ -3135,12 +3491,12 @@
       ]
     },
     {
-      "id": 82,
+      "id": 93,
       "list": [
         {
-          "id": 142,
+          "id": 181,
           "name": "莫古利大师",
-          "group": 82,
+          "group": 93,
           "location": [
             "斗技场"
           ],
@@ -3154,12 +3510,12 @@
       ]
     },
     {
-      "id": 83,
+      "id": 94,
       "list": [
         {
-          "id": 143,
+          "id": 182,
           "name": "仙人掌怪大师",
-          "group": 83,
+          "group": 94,
           "location": [
             "斗技场"
           ],
@@ -3173,12 +3529,12 @@
       ]
     },
     {
-      "id": 84,
+      "id": 95,
       "list": [
         {
-          "id": 145,
+          "id": 183,
           "name": "究极兵器",
-          "group": 84,
+          "group": 95,
           "location": [
             "斗技场"
           ],
@@ -3193,12 +3549,12 @@
       ]
     },
     {
-      "id": 85,
+      "id": 96,
       "list": [
         {
-          "id": 146,
+          "id": 184,
           "name": "仙人掌强尼",
-          "group": 85,
+          "group": 96,
           "location": [
             "斗技场(PSN预订特典)"
           ],
@@ -3211,12 +3567,12 @@
       ]
     },
     {
-      "id": 86,
+      "id": 97,
       "list": [
         {
-          "id": 147,
+          "id": 185,
           "name": "亚秋·小安",
-          "group": 86,
+          "group": 97,
           "location": [
             "斗技场(配信DLC)"
           ],
@@ -3229,12 +3585,12 @@
       ]
     },
     {
-      "id": 87,
+      "id": 98,
       "list": [
         {
-          "id": 148,
+          "id": 186,
           "name": "亚秋·小悠",
-          "group": 87,
+          "group": 98,
           "location": [
             "斗技场(配信DLC)"
           ],
@@ -3247,12 +3603,12 @@
       ]
     },
     {
-      "id": 88,
+      "id": 99,
       "list": [
         {
-          "id": 149,
+          "id": 187,
           "name": "神欧米茄",
-          "group": 88,
+          "group": 99,
           "location": [
             "斗技场(配信DLC)"
           ],
@@ -3266,12 +3622,12 @@
       ]
     },
     {
-      "id": 89,
+      "id": 100,
       "list": [
         {
-          "id": 150,
+          "id": 188,
           "name": "魔导装甲P",
-          "group": 89,
+          "group": 100,
           "location": [
             "斗技场(体验版通关特典)"
           ],
@@ -3284,12 +3640,12 @@
       ]
     },
     {
-      "id": 90,
+      "id": 101,
       "list": [
         {
-          "id": 151,
+          "id": 189,
           "name": "火伊",
-          "group": 90,
+          "group": 101,
           "location": [
             "隐藏迷宫"
           ],
@@ -3305,9 +3661,9 @@
           ]
         },
         {
-          "id": 154,
+          "id": 190,
           "name": "火伊利特☆",
-          "group": 90,
+          "group": 101,
           "location": [
             "真结局后隐藏迷宫"
           ],
@@ -3321,9 +3677,9 @@
           "drop": []
         },
         {
-          "id": 157,
+          "id": 191,
           "name": "火伊利☆",
-          "group": 90,
+          "group": 101,
           "location": [
             "真结局后隐藏迷宫"
           ],
@@ -3340,12 +3696,55 @@
       ]
     },
     {
-      "id": 91,
+      "id": 102,
       "list": [
         {
-          "id": 152,
+          "id": 192,
+          "name": "火伊利☆",
+          "group": 102,
+          "location": [
+            "真结局后隐藏迷宫"
+          ],
+          "transformCondition": "真结局通关后追加隐藏迷宫·左",
+          "transformTo": [
+            "火伊",
+            "火伊利特☆"
+          ],
+          "size": "M",
+          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635786307.jpg",
+          "drop": [],
+          "shadowStone": "火抗性小提升"
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "list": [
+        {
+          "id": 193,
+          "name": "火伊利特☆",
+          "group": 103,
+          "location": [
+            "真结局后隐藏迷宫"
+          ],
+          "transformCondition": "真结局通关后追加隐藏迷宫·左",
+          "transformTo": [
+            "火伊",
+            "火伊利☆"
+          ],
+          "size": "L",
+          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606513.jpg",
+          "drop": []
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "list": [
+        {
+          "id": 194,
           "name": "冰利拉",
-          "group": 91,
+          "group": 104,
           "location": [
             "隐藏迷宫"
           ],
@@ -3359,9 +3758,9 @@
           "drop": []
         },
         {
-          "id": 155,
+          "id": 195,
           "name": "湿婆利☆",
-          "group": 91,
+          "group": 104,
           "location": [
             "真结局后隐藏迷宫"
           ],
@@ -3375,9 +3774,9 @@
           "drop": []
         },
         {
-          "id": 158,
+          "id": 196,
           "name": "湿婆列☆",
-          "group": 91,
+          "group": 104,
           "location": [
             "真结局后隐藏迷宫"
           ],
@@ -3394,12 +3793,55 @@
       ]
     },
     {
-      "id": 92,
+      "id": 105,
       "list": [
         {
-          "id": 153,
+          "id": 197,
+          "name": "湿婆利☆",
+          "group": 105,
+          "location": [
+            "真结局后隐藏迷宫"
+          ],
+          "transformCondition": "真结局通关后追加隐藏迷宫·右",
+          "transformTo": [
+            "冰利拉",
+            "湿婆列☆"
+          ],
+          "size": "L",
+          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606516.jpg",
+          "drop": []
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "list": [
+        {
+          "id": 198,
+          "name": "湿婆列☆",
+          "group": 106,
+          "location": [
+            "真结局后隐藏迷宫"
+          ],
+          "transformCondition": "真结局通关后追加隐藏迷宫·右",
+          "transformTo": [
+            "冰利拉",
+            "湿婆利☆"
+          ],
+          "size": "M",
+          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635786309.jpg",
+          "drop": [],
+          "shadowStone": "冰抗性小提升"
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "list": [
+        {
+          "id": 199,
           "name": "霹雳拉",
-          "group": 92,
+          "group": 107,
           "location": [
             "隐藏迷宫"
           ],
@@ -3413,9 +3855,9 @@
           "drop": []
         },
         {
-          "id": 156,
+          "id": 200,
           "name": "雷拉姆☆",
-          "group": 92,
+          "group": 107,
           "location": [
             "真结局后隐藏迷宫"
           ],
@@ -3429,9 +3871,9 @@
           "drop": []
         },
         {
-          "id": 159,
+          "id": 201,
           "name": "霹雳霹雳☆",
-          "group": 92,
+          "group": 107,
           "location": [
             "真结局后隐藏迷宫"
           ],
@@ -3448,12 +3890,55 @@
       ]
     },
     {
-      "id": 93,
+      "id": 108,
       "list": [
         {
-          "id": 160,
+          "id": 202,
+          "name": "雷拉姆☆",
+          "group": 108,
+          "location": [
+            "真结局后隐藏迷宫"
+          ],
+          "transformCondition": "真结局通关后追加隐藏迷宫·中",
+          "transformTo": [
+            "霹雳拉",
+            "霹雳霹雳☆"
+          ],
+          "size": "L",
+          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606519.jpg",
+          "drop": []
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "list": [
+        {
+          "id": 203,
+          "name": "霹雳霹雳☆",
+          "group": 109,
+          "location": [
+            "真结局后隐藏迷宫"
+          ],
+          "transformCondition": "真结局通关后追加隐藏迷宫·中",
+          "transformTo": [
+            "霹雳拉",
+            "雷拉姆☆"
+          ],
+          "size": "M",
+          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635786311.jpg",
+          "drop": [],
+          "shadowStone": "雷抗性小提升"
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "list": [
+        {
+          "id": 204,
           "name": "XG",
-          "group": 93,
+          "group": 110,
           "location": [
             "真结局后隐藏迷宫"
           ],
@@ -3467,107 +3952,12 @@
       ]
     },
     {
-      "id": 94,
+      "id": 111,
       "list": [
         {
-          "id": 161,
-          "name": "玉藻姬",
-          "group": 94,
-          "location": [],
-          "transformCondition": "真结局通关",
-          "transformTo": [
-            "小玉"
-          ],
-          "size": "L",
-          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606500.jpg",
-          "drop": [],
-          "shadowStone": "全属性抗性提升"
-        },
-        {
-          "id": 183,
-          "name": "小玉",
-          "group": 94,
-          "location": [],
-          "transformTo": [
-            "玉藻姬"
-          ],
-          "size": "S",
-          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635821895.jpg",
-          "drop": []
-        }
-      ]
-    },
-    {
-      "id": 95,
-      "list": [
-        {
-          "id": 162,
-          "name": "九尾狐",
-          "group": 95,
-          "location": [],
-          "catchCondition": "陷入死亡宣告状态※史芬杰斯技能",
-          "transformCondition": "真结局通关",
-          "transformTo": [
-            "尤路古"
-          ],
-          "size": "L",
-          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606501.jpg",
-          "drop": [],
-          "shadowStone": "安全别针"
-        },
-        {
-          "id": 184,
-          "name": "尤路古",
-          "group": 95,
-          "location": [],
-          "catchCondition": "陷入忘却状态",
-          "transformTo": [
-            "九尾狐"
-          ],
-          "size": "S",
-          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635821896.jpg",
-          "drop": []
-        }
-      ]
-    },
-    {
-      "id": 96,
-      "list": [
-        {
-          "id": 164,
-          "name": "赛莲",
-          "group": 96,
-          "location": [],
-          "transformTo": [
-            "风精"
-          ],
-          "size": "L",
-          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606503.jpg",
-          "drop": [],
-          "shadowStone": "大平衡"
-        },
-        {
-          "id": 185,
-          "name": "风精",
-          "group": 96,
-          "location": [],
-          "catchCondition": "降低其HP",
-          "transformTo": [
-            "赛莲"
-          ],
-          "size": "S",
-          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635821899.jpg",
-          "drop": []
-        }
-      ]
-    },
-    {
-      "id": 97,
-      "list": [
-        {
-          "id": 165,
+          "id": 205,
           "name": "拉·雪拉菲",
-          "group": 97,
+          "group": 111,
           "location": [],
           "transformTo": [
             "雪拉菲"
@@ -3578,9 +3968,9 @@
           "shadowStone": "大劲风"
         },
         {
-          "id": 186,
+          "id": 206,
           "name": "雪拉菲",
-          "group": 97,
+          "group": 111,
           "location": [],
           "transformTo": [
             "拉·雪拉菲"
@@ -3592,12 +3982,12 @@
       ]
     },
     {
-      "id": 98,
+      "id": 112,
       "list": [
         {
-          "id": 176,
+          "id": 207,
           "name": "钢人",
-          "group": 98,
+          "group": 112,
           "location": [],
           "catchCondition": "使其物理防御下降※布丁的消化液、三头水蛇的腐蚀毒牙技能",
           "transformTo": [],
@@ -3610,12 +4000,12 @@
       ]
     },
     {
-      "id": 99,
+      "id": 113,
       "list": [
         {
-          "id": 191,
+          "id": 208,
           "name": "巴哈姆特☆",
-          "group": 99,
+          "group": 113,
           "location": [],
           "catchCondition": "少女房间灵魂任务对偶恶魔的真面目篇无法宝石化，战胜后获得庭院宝石",
           "transformTo": [],
@@ -3627,12 +4017,12 @@
       ]
     },
     {
-      "id": 100,
+      "id": 114,
       "list": [
         {
-          "id": 192,
+          "id": 209,
           "name": "奥丁☆",
-          "group": 100,
+          "group": 114,
           "location": [],
           "catchCondition": "少女房间灵魂任务双剑对决篇无法宝石化，战胜后获得庭院宝石",
           "transformTo": [],
@@ -3643,12 +4033,12 @@
       ]
     },
     {
-      "id": 101,
+      "id": 115,
       "list": [
         {
-          "id": 193,
+          "id": 210,
           "name": "迪亚布罗斯☆",
-          "group": 101,
+          "group": 115,
           "location": [],
           "catchCondition": "少女房间灵魂任务过去的罪孽篇无法宝石化，战胜后获得庭院宝石",
           "transformTo": [],

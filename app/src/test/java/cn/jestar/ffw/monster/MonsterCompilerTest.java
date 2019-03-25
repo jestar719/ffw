@@ -171,10 +171,10 @@ public class MonsterCompilerTest {
     public void makeRepository() throws IOException {
         Type type = new TypeToken<LinkedList<Monster>>() {
         }.getType();
+        DataRepository repository = new DataRepository();
         LinkedList<Monster> monsters = mGson.fromJson(getReader(mMonsterFile), type);
         final List<String> locations = mGson.fromJson(getReader(mLocationFile), ArrayList.class);
-        DataRepository repository = new DataRepository();
-        repository.setLocation(locations);
+//        repository.setLocation(locations);
         setGroup(monsters, repository);
         mCompiler.write2Json(new File(mRepositoryFile), repository);
     }
