@@ -2,8 +2,6 @@ package cn.jestar.ffw.monster;
 
 import com.google.gson.Gson;
 
-import junit.framework.Assert;
-
 import org.junit.Before;
 import org.junit.Test;
 
@@ -16,7 +14,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
-import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.Assert.assertNotNull;
@@ -53,18 +50,22 @@ public class RepositoryTest {
 
 
     @Test
-    public void resetName(){
+    public void resetName() throws IOException {
         for (MonsterGroup group : mRepository.getList()) {
             List<Monster> list = group.getList();
             if (list.size()>1){
                 for (Monster monster : list) {
                     String name = monster.getName();
                     if (name.contains("☆")){
-                        monster.setName(name.substring(name.length()-1));
+                        monster.setName(name.substring(0, name.length() - 1));
+                        monster.setCatchCondition(null);
+                        monster.setShadowStone(null);
+                        monster.setTransformCondition(null);
                     }
                 }
             }
         }
+        write();
     }
 
     private void resetGroupId(List<MonsterGroup> list) throws IOException {

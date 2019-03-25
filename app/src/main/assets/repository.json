@@ -127,7 +127,7 @@
           "catchCondition": "对其使用基沙尔蔬菜",
           "transformTo": [
             "陆行鸟宝宝",
-            "机械陆行鸟☆"
+            "机械陆行鸟"
           ],
           "size": "M",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635786292.jpg",
@@ -138,20 +138,18 @@
         },
         {
           "id": 9,
-          "name": "机械陆行鸟☆",
+          "name": "机械陆行鸟",
           "group": 4,
           "location": [
             "斗技场"
           ],
-          "catchCondition": "陷入狂暴状态",
           "transformTo": [
             "陆行鸟",
             "陆行鸟宝宝"
           ],
           "size": "L",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606573.jpg",
-          "drop": [],
-          "shadowStone": "HP中提升"
+          "drop": []
         },
         {
           "id": 10,
@@ -197,10 +195,6 @@
             "斗技场"
           ],
           "catchCondition": "陷入狂暴状态",
-          "transformTo": [
-            "陆行鸟",
-            "陆行鸟宝宝"
-          ],
           "size": "L",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606573.jpg",
           "drop": [],
@@ -514,8 +508,8 @@
           "catchCondition": "受到火属性攻击",
           "transformTo": [
             "伊弗利",
-            "伊弗利特☆",
-            "伊弗利妲☆"
+            "伊弗利特",
+            "伊弗利妲"
           ],
           "size": "S",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635821908.jpg",
@@ -523,17 +517,15 @@
         },
         {
           "id": 29,
-          "name": "伊弗利特☆",
+          "name": "伊弗利特",
           "group": 11,
           "location": [
             "斗技场"
           ],
-          "catchCondition": "受到火属性攻击",
-          "transformCondition": "斗技场",
           "transformTo": [
             "伊弗仔",
             "伊弗利",
-            "伊弗利妲☆"
+            "伊弗利妲"
           ],
           "size": "L",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606570.jpg",
@@ -541,22 +533,19 @@
         },
         {
           "id": 30,
-          "name": "伊弗利妲☆",
+          "name": "伊弗利妲",
           "group": 11,
           "location": [
             "斗技场"
           ],
-          "catchCondition": "受到火属性攻击",
-          "transformCondition": "心灵任务:炎之特训篇",
           "transformTo": [
             "伊弗仔",
             "伊弗利",
-            "伊弗利特☆"
+            "伊弗利特"
           ],
           "size": "L",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606575.jpg",
-          "drop": [],
-          "shadowStone": "火抗性小提升"
+          "drop": []
         },
         {
           "id": 31,
@@ -565,8 +554,8 @@
           "location": [],
           "transformTo": [
             "伊弗仔",
-            "伊弗利特☆",
-            "伊弗利妲☆"
+            "伊弗利特",
+            "伊弗利妲"
           ],
           "size": "M",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635786306.jpg",
@@ -590,7 +579,7 @@
           "transformTo": [
             "伊弗仔",
             "伊弗利",
-            "伊弗利妲☆"
+            "伊弗利妲"
           ],
           "size": "L",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606570.jpg",
@@ -610,11 +599,6 @@
           ],
           "catchCondition": "受到火属性攻击",
           "transformCondition": "心灵任务:炎之特训篇",
-          "transformTo": [
-            "伊弗仔",
-            "伊弗利",
-            "伊弗利特☆"
-          ],
           "size": "L",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606575.jpg",
           "drop": [],
@@ -635,8 +619,8 @@
           "catchCondition": "受到冰属性攻击",
           "transformTo": [
             "湿婆宝宝",
-            "湿婆☆",
-            "湿伯☆"
+            "湿婆",
+            "湿伯"
           ],
           "size": "S",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635821910.jpg",
@@ -647,41 +631,35 @@
         },
         {
           "id": 35,
-          "name": "湿婆☆",
+          "name": "湿婆",
           "group": 14,
           "location": [
             "斗技场"
           ],
-          "catchCondition": "受到冰属性攻击",
-          "transformCondition": "斗技场",
           "transformTo": [
             "冰利査",
             "湿婆宝宝",
-            "湿伯☆"
+            "湿伯"
           ],
           "size": "L",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606571.jpg",
-          "drop": [],
-          "shadowStone": "缓慢抗性"
+          "drop": []
         },
         {
           "id": 36,
-          "name": "湿伯☆",
+          "name": "湿伯",
           "group": 14,
           "location": [
             "斗技场"
           ],
-          "catchCondition": "受到冰属性攻击",
-          "transformCondition": "心灵任务:冰冷的正义篇",
           "transformTo": [
             "冰利査",
             "湿婆宝宝",
-            "湿婆☆"
+            "湿婆"
           ],
           "size": "L",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606574.jpg",
-          "drop": [],
-          "shadowStone": "冰抗性小提升"
+          "drop": []
         },
         {
           "id": 37,
@@ -690,8 +668,8 @@
           "location": [],
           "transformTo": [
             "冰利査",
-            "湿婆☆",
-            "湿伯☆"
+            "湿婆",
+            "湿伯"
           ],
           "size": "M",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635786308.jpg",
@@ -712,11 +690,6 @@
           ],
           "catchCondition": "受到冰属性攻击",
           "transformCondition": "斗技场",
-          "transformTo": [
-            "冰利査",
-            "湿婆宝宝",
-            "湿伯☆"
-          ],
           "size": "L",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606571.jpg",
           "drop": [],
@@ -736,11 +709,6 @@
           ],
           "catchCondition": "受到冰属性攻击",
           "transformCondition": "心灵任务:冰冷的正义篇",
-          "transformTo": [
-            "冰利査",
-            "湿婆宝宝",
-            "湿婆☆"
-          ],
           "size": "L",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606574.jpg",
           "drop": [],
@@ -761,8 +729,8 @@
           "catchCondition": "受到雷属性攻击",
           "transformTo": [
             "尚电小子",
-            "拉姆☆",
-            "拉缪☆"
+            "拉姆",
+            "拉缪"
           ],
           "size": "S",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635821912.jpg",
@@ -770,38 +738,33 @@
         },
         {
           "id": 41,
-          "name": "拉姆☆",
+          "name": "拉姆",
           "group": 17,
           "location": [
             "斗技场"
           ],
-          "catchCondition": "受到雷属性攻击",
-          "transformCondition": "斗技场",
           "transformTo": [
             "尚电",
             "尚电小子",
-            "拉缪☆"
+            "拉缪"
           ],
           "size": "L",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606572.jpg",
-          "drop": [],
-          "shadowStone": "大雷电"
+          "drop": []
         },
         {
           "id": 42,
-          "name": "拉缪☆",
+          "name": "拉缪",
           "group": 17,
           "location": [],
-          "transformCondition": "心灵任务:五大魔震·科内利亚篇",
           "transformTo": [
             "尚电",
             "尚电小子",
-            "拉姆☆"
+            "拉姆"
           ],
           "size": "L",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606518.jpg",
-          "drop": [],
-          "shadowStone": "魔法攻击下降抗性"
+          "drop": []
         },
         {
           "id": 43,
@@ -810,8 +773,8 @@
           "location": [],
           "transformTo": [
             "尚电",
-            "拉姆☆",
-            "拉缪☆"
+            "拉姆",
+            "拉缪"
           ],
           "size": "M",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635786310.jpg",
@@ -832,11 +795,6 @@
           ],
           "catchCondition": "受到雷属性攻击",
           "transformCondition": "斗技场",
-          "transformTo": [
-            "尚电",
-            "尚电小子",
-            "拉缪☆"
-          ],
           "size": "L",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606572.jpg",
           "drop": [],
@@ -853,11 +811,6 @@
           "group": 19,
           "location": [],
           "transformCondition": "心灵任务:五大魔震·科内利亚篇",
-          "transformTo": [
-            "尚电",
-            "尚电小子",
-            "拉姆☆"
-          ],
           "size": "L",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606518.jpg",
           "drop": [],
@@ -879,7 +832,7 @@
           "catchCondition": "降低其HP",
           "transformTo": [
             "哥布林守卫",
-            "哥布林公主☆"
+            "哥布林公主"
           ],
           "size": "M",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635786297.jpg",
@@ -898,7 +851,7 @@
           "catchCondition": "陷入物防御状态",
           "transformTo": [
             "哥布林",
-            "哥布林公主☆"
+            "哥布林公主"
           ],
           "size": "M",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635786298.jpg",
@@ -907,12 +860,11 @@
         },
         {
           "id": 48,
-          "name": "哥布林公主☆",
+          "name": "哥布林公主",
           "group": 20,
           "location": [
             "进击的平原外"
           ],
-          "catchCondition": "陷入黑暗状态",
           "transformCondition": "心灵任务:逼婚篇",
           "transformTo": [
             "哥布林",
@@ -920,8 +872,7 @@
           ],
           "size": "M",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635786345.jpg",
-          "drop": [],
-          "shadowStone": "魔法防御下降抗性"
+          "drop": []
         }
       ]
     },
@@ -936,11 +887,6 @@
             "进击的平原外"
           ],
           "catchCondition": "陷入黑暗状态",
-          "transformCondition": "心灵任务:逼婚篇",
-          "transformTo": [
-            "哥布林",
-            "哥布林守卫"
-          ],
           "size": "M",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635786345.jpg",
           "drop": [],
@@ -1143,7 +1089,7 @@
           ],
           "catchCondition": "陷入忘却状态",
           "transformTo": [
-            "高贵活尸☆"
+            "高贵活尸"
           ],
           "size": "M",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635786314.jpg",
@@ -1151,20 +1097,18 @@
         },
         {
           "id": 60,
-          "name": "高贵活尸☆",
+          "name": "高贵活尸",
           "group": 26,
           "location": [
             "冰锥区域"
           ],
-          "catchCondition": "受到光属性攻击",
-          "transformCondition": "心灵任务:狠心人篇",
           "transformTo": [
             "死亡骷髅"
           ],
+          "transformCondition": "心灵任务:狠心人篇",
           "size": "L",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606578.jpg",
-          "drop": [],
-          "shadowStone": "忘却抗性"
+          "drop": []
         }
       ]
     },
@@ -1179,10 +1123,6 @@
             "冰锥区域"
           ],
           "catchCondition": "受到光属性攻击",
-          "transformCondition": "心灵任务:狠心人篇",
-          "transformTo": [
-            "死亡骷髅"
-          ],
           "size": "L",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606578.jpg",
           "drop": [],
@@ -2726,7 +2666,7 @@
           ],
           "catchCondition": "为其回复HP",
           "transformTo": [
-            "亚秋女王☆"
+            "亚秋女王"
           ],
           "size": "S",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635821922.jpg",
@@ -2735,20 +2675,18 @@
         },
         {
           "id": 141,
-          "name": "亚秋女王☆",
+          "name": "亚秋女王",
           "group": 65,
           "location": [
             "海底神殿"
           ],
-          "catchCondition": "为其回复HP",
-          "transformCondition": "18幕BOSS",
           "transformTo": [
             "亚秋"
           ],
+          "transformCondition": "18幕BOSS",
           "size": "L",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606576.jpg",
-          "drop": [],
-          "shadowStone": "大水花"
+          "drop": []
         }
       ]
     },
@@ -2763,10 +2701,6 @@
             "海底神殿"
           ],
           "catchCondition": "为其回复HP",
-          "transformCondition": "18幕BOSS",
-          "transformTo": [
-            "亚秋"
-          ],
           "size": "L",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606576.jpg",
           "drop": [],
@@ -2786,7 +2720,7 @@
           ],
           "catchCondition": "受到水属性攻击",
           "transformTo": [
-            "利维坦☆"
+            "利维坦"
           ],
           "size": "M",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635786331.jpg",
@@ -2795,17 +2729,15 @@
         },
         {
           "id": 144,
-          "name": "利维坦☆",
+          "name": "利维坦",
           "group": 67,
           "location": [],
-          "catchCondition": "少女房间灵魂任务先人的仇篇无法宝石化，战胜后获得庭院宝石",
           "transformTo": [
             "海蛇"
           ],
           "size": "XL",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635524594.jpg",
-          "drop": [],
-          "shadowStone": "水抗性小提升"
+          "drop": []
         }
       ]
     },
@@ -2818,9 +2750,6 @@
           "group": 68,
           "location": [],
           "catchCondition": "少女房间灵魂任务先人的仇篇无法宝石化，战胜后获得庭院宝石",
-          "transformTo": [
-            "海蛇"
-          ],
           "size": "XL",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635524594.jpg",
           "drop": [],
@@ -2880,7 +2809,7 @@
           "catchCondition": "反射其魔法",
           "transformTo": [
             "克拉肯",
-            "欧特洛斯☆"
+            "欧特洛斯"
           ],
           "size": "M",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635786341.jpg",
@@ -2899,7 +2828,7 @@
           "transformCondition": "19幕BOSS",
           "transformTo": [
             "夺心魔",
-            "欧特洛斯☆"
+            "欧特洛斯"
           ],
           "size": "L",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606557.jpg",
@@ -2908,20 +2837,18 @@
         },
         {
           "id": 150,
-          "name": "欧特洛斯☆",
+          "name": "欧特洛斯",
           "group": 70,
           "location": [
             "斗技场"
           ],
-          "catchCondition": "我方只剩1名成员",
           "transformTo": [
             "夺心魔",
             "克拉肯"
           ],
           "size": "L",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606577.jpg",
-          "drop": [],
-          "shadowStone": "深渊"
+          "drop": []
         }
       ]
     },
@@ -2936,10 +2863,6 @@
             "斗技场"
           ],
           "catchCondition": "我方只剩1名成员",
-          "transformTo": [
-            "夺心魔",
-            "克拉肯"
-          ],
           "size": "L",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606577.jpg",
           "drop": [],
@@ -3651,8 +3574,8 @@
           ],
           "catchCondition": "受到火属性攻击",
           "transformTo": [
-            "火伊利☆",
-            "火伊利特☆"
+            "火伊利",
+            "火伊利特"
           ],
           "size": "S",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635821909.jpg",
@@ -3662,36 +3585,35 @@
         },
         {
           "id": 190,
-          "name": "火伊利特☆",
+          "name": "火伊利特",
           "group": 101,
           "location": [
             "真结局后隐藏迷宫"
           ],
-          "transformCondition": "真结局通关后追加隐藏迷宫·左",
           "transformTo": [
             "火伊",
-            "火伊利☆"
+            "火伊利"
           ],
+          "transformCondition": "真结局通关后追加隐藏迷宫·左",
           "size": "L",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606513.jpg",
           "drop": []
         },
         {
           "id": 191,
-          "name": "火伊利☆",
+          "name": "火伊利",
           "group": 101,
           "location": [
             "真结局后隐藏迷宫"
           ],
-          "transformCondition": "真结局通关后追加隐藏迷宫·左",
           "transformTo": [
             "火伊",
-            "火伊利特☆"
+            "火伊利特"
           ],
+          "transformCondition": "真结局通关后追加隐藏迷宫·左",
           "size": "M",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635786307.jpg",
-          "drop": [],
-          "shadowStone": "火抗性小提升"
+          "drop": []
         }
       ]
     },
@@ -3704,11 +3626,6 @@
           "group": 102,
           "location": [
             "真结局后隐藏迷宫"
-          ],
-          "transformCondition": "真结局通关后追加隐藏迷宫·左",
-          "transformTo": [
-            "火伊",
-            "火伊利特☆"
           ],
           "size": "M",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635786307.jpg",
@@ -3726,11 +3643,6 @@
           "group": 103,
           "location": [
             "真结局后隐藏迷宫"
-          ],
-          "transformCondition": "真结局通关后追加隐藏迷宫·左",
-          "transformTo": [
-            "火伊",
-            "火伊利☆"
           ],
           "size": "L",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606513.jpg",
@@ -3750,8 +3662,8 @@
           ],
           "catchCondition": "受到冰属性攻击",
           "transformTo": [
-            "湿婆列☆",
-            "湿婆利☆"
+            "湿婆列",
+            "湿婆利"
           ],
           "size": "S",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635821911.jpg",
@@ -3759,36 +3671,35 @@
         },
         {
           "id": 195,
-          "name": "湿婆利☆",
+          "name": "湿婆利",
           "group": 104,
           "location": [
             "真结局后隐藏迷宫"
           ],
-          "transformCondition": "真结局通关后追加隐藏迷宫·右",
           "transformTo": [
             "冰利拉",
-            "湿婆列☆"
+            "湿婆列"
           ],
+          "transformCondition": "真结局通关后追加隐藏迷宫·右",
           "size": "L",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606516.jpg",
           "drop": []
         },
         {
           "id": 196,
-          "name": "湿婆列☆",
+          "name": "湿婆列",
           "group": 104,
           "location": [
             "真结局后隐藏迷宫"
           ],
-          "transformCondition": "真结局通关后追加隐藏迷宫·右",
           "transformTo": [
             "冰利拉",
-            "湿婆利☆"
+            "湿婆利"
           ],
+          "transformCondition": "真结局通关后追加隐藏迷宫·右",
           "size": "M",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635786309.jpg",
-          "drop": [],
-          "shadowStone": "冰抗性小提升"
+          "drop": []
         }
       ]
     },
@@ -3801,11 +3712,6 @@
           "group": 105,
           "location": [
             "真结局后隐藏迷宫"
-          ],
-          "transformCondition": "真结局通关后追加隐藏迷宫·右",
-          "transformTo": [
-            "冰利拉",
-            "湿婆列☆"
           ],
           "size": "L",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606516.jpg",
@@ -3822,11 +3728,6 @@
           "group": 106,
           "location": [
             "真结局后隐藏迷宫"
-          ],
-          "transformCondition": "真结局通关后追加隐藏迷宫·右",
-          "transformTo": [
-            "冰利拉",
-            "湿婆利☆"
           ],
           "size": "M",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635786309.jpg",
@@ -3847,8 +3748,8 @@
           ],
           "catchCondition": "受到雷属性攻击",
           "transformTo": [
-            "霹雳霹雳☆",
-            "雷拉姆☆"
+            "霹雳霹雳",
+            "雷拉姆"
           ],
           "size": "S",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635821913.jpg",
@@ -3856,36 +3757,35 @@
         },
         {
           "id": 200,
-          "name": "雷拉姆☆",
+          "name": "雷拉姆",
           "group": 107,
           "location": [
             "真结局后隐藏迷宫"
           ],
-          "transformCondition": "真结局通关后追加隐藏迷宫·中",
           "transformTo": [
             "霹雳拉",
-            "霹雳霹雳☆"
+            "霹雳霹雳"
           ],
+          "transformCondition": "真结局通关后追加隐藏迷宫·中",
           "size": "L",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606519.jpg",
           "drop": []
         },
         {
           "id": 201,
-          "name": "霹雳霹雳☆",
+          "name": "霹雳霹雳",
           "group": 107,
           "location": [
             "真结局后隐藏迷宫"
           ],
-          "transformCondition": "真结局通关后追加隐藏迷宫·中",
           "transformTo": [
             "霹雳拉",
-            "雷拉姆☆"
+            "雷拉姆"
           ],
+          "transformCondition": "真结局通关后追加隐藏迷宫·中",
           "size": "M",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635786311.jpg",
-          "drop": [],
-          "shadowStone": "雷抗性小提升"
+          "drop": []
         }
       ]
     },
@@ -3898,11 +3798,6 @@
           "group": 108,
           "location": [
             "真结局后隐藏迷宫"
-          ],
-          "transformCondition": "真结局通关后追加隐藏迷宫·中",
-          "transformTo": [
-            "霹雳拉",
-            "霹雳霹雳☆"
           ],
           "size": "L",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606519.jpg",
@@ -3917,14 +3812,6 @@
           "id": 203,
           "name": "霹雳霹雳☆",
           "group": 109,
-          "location": [
-            "真结局后隐藏迷宫"
-          ],
-          "transformCondition": "真结局通关后追加隐藏迷宫·中",
-          "transformTo": [
-            "霹雳拉",
-            "雷拉姆☆"
-          ],
           "size": "M",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635786311.jpg",
           "drop": [],
