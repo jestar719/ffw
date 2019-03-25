@@ -57,6 +57,39 @@
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606573.jpg",
           "drop": [],
           "shadowStone": "HP中提升"
+        },
+        {
+          "id": 17,
+          "name": "黑色陆行鸟",
+          "group": 0,
+          "transType":1,
+          "location": [
+            "进击的平原隐藏区域"
+          ],
+          "catchCondition": "为其回复HP",
+          "transformTo": [
+            "东方不败"
+          ],
+          "size": "S",
+          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635821898.jpg",
+          "drop": [
+            "麻醉药",
+            "涡轮麻醉药"
+          ]
+        },
+        {
+          "id": 178,
+          "name": "东方不败",
+          "group": 0,
+          "transType":1,
+          "location": [],
+          "transformCondition": "心灵任务:黑色陆行鸟篇",
+          "transformTo": [
+            "黑陆行鸟宝宝"
+          ],
+          "size": "M",
+          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635786293.jpg",
+          "drop": []
         }
       ]
     },
@@ -112,6 +145,46 @@
           "size": "M",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635786295.jpg",
           "drop": []
+        },
+        {
+          "id": 22,
+          "name": "河畔掘地鼠",
+          "group": 1,
+          "transType":1,
+          "location": [
+            "灯火之森",
+            "列车坟场(黑块)"
+          ],
+          "catchCondition": "受到炎属性攻击",
+          "transformTo": [
+            "坚果松鼠"
+          ],
+          "size": "S",
+          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635821902.jpg",
+          "drop": [
+            "治疗剂",
+            "凤凰之尾"
+          ]
+        },
+        {
+          "id": 53,
+          "name": "坚果松鼠",
+          "group": 1,
+          "transType":1,
+          "location": [
+            "幻影砂漠",
+            "刮风湿地"
+          ],
+          "catchCondition": "对其使用强化魔法",
+          "transformTo": [
+            "河畔掘地鼠"
+          ],
+          "size": "M",
+          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635786296.jpg",
+          "drop": [
+            "镇静剂",
+            "摇晃安定剂"
+          ]
         }
       ]
     },
@@ -217,6 +290,40 @@
             "治疗剂"
           ],
           "shadowStone": "驱魔"
+        },   {
+          "id": 41,
+          "name": "血腥赤眼",
+          "group": 3,
+          "transType":1,
+          "location": [
+            "翼龙溪谷",
+            "第七峡谷"
+          ],
+          "catchCondition": "对方仅剩其一体迷影兽",
+          "transformTo": [
+            "布耶尔"
+          ],
+          "size": "M",
+          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635786305.jpg",
+          "drop": []
+        },
+        {
+          "id": 119,
+          "name": "布耶尔",
+          "group": 3,
+          "transType":1,
+          "location": [
+            "斗技场"
+          ],
+          "catchCondition": "陷入混乱状态",
+          "transformCondition": "17幕BOSS",
+          "transformTo": [
+            "血腥赤眼"
+          ],
+          "size": "L",
+          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606510.jpg",
+          "drop": [],
+          "shadowStone": "反射"
         }
       ]
     },
@@ -711,42 +818,6 @@
       ]
     },
     {
-      "id": 13,
-      "list": [
-        {
-          "id": 17,
-          "name": "黑色陆行鸟",
-          "group": 13,
-          "location": [
-            "进击的平原隐藏区域"
-          ],
-          "catchCondition": "为其回复HP",
-          "transformTo": [
-            "东方不败"
-          ],
-          "size": "S",
-          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635821898.jpg",
-          "drop": [
-            "麻醉药",
-            "涡轮麻醉药"
-          ]
-        },
-        {
-          "id": 178,
-          "name": "东方不败",
-          "group": 13,
-          "location": [],
-          "transformCondition": "心灵任务:黑色陆行鸟篇",
-          "transformTo": [
-            "黑陆行鸟宝宝"
-          ],
-          "size": "M",
-          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635786293.jpg",
-          "drop": []
-        }
-      ]
-    },
-    {
       "id": 14,
       "list": [
         {
@@ -766,6 +837,22 @@
             "摇晃安定剂"
           ],
           "shadowStone": "雷电"
+        },
+        {
+          "id": 28,
+          "name": "左钩爪",
+          "group": 14,
+          "transType":1,
+          "location": [
+            "冰柱悬崖",
+            "第七峡谷"
+          ],
+          "catchCondition": "降低其HP",
+          "transformTo": [],
+          "size": "L",
+          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606526.jpg",
+          "drop": [],
+          "shadowStone": "缓慢"
         }
       ]
     },
@@ -903,49 +990,6 @@
       ]
     },
     {
-      "id": 18,
-      "list": [
-        {
-          "id": 22,
-          "name": "河畔掘地鼠",
-          "group": 18,
-          "location": [
-            "灯火之森",
-            "列车坟场(黑块)"
-          ],
-          "catchCondition": "受到炎属性攻击",
-          "transformTo": [
-            "坚果松鼠"
-          ],
-          "size": "S",
-          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635821902.jpg",
-          "drop": [
-            "治疗剂",
-            "凤凰之尾"
-          ]
-        },
-        {
-          "id": 53,
-          "name": "坚果松鼠",
-          "group": 18,
-          "location": [
-            "幻影砂漠",
-            "刮风湿地"
-          ],
-          "catchCondition": "对其使用强化魔法",
-          "transformTo": [
-            "河畔掘地鼠"
-          ],
-          "size": "M",
-          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635786296.jpg",
-          "drop": [
-            "镇静剂",
-            "摇晃安定剂"
-          ]
-        }
-      ]
-    },
-    {
       "id": 19,
       "list": [
         {
@@ -1040,44 +1084,7 @@
           "size": "L",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606533.jpg",
           "drop": []
-        }
-      ]
-    },
-    {
-      "id": 21,
-      "list": [
-        {
-          "id": 25,
-          "name": "魔法罐",
-          "group": 21,
-          "location": [
-            "灯火之森"
-          ],
-          "catchCondition": "对其使用万灵药",
-          "transformTo": [
-            "黄金模仿怪"
-          ],
-          "size": "S",
-          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635821921.jpg",
-          "drop": []
-        },
-        {
-          "id": 68,
-          "name": "黄金模仿怪",
-          "group": 21,
-          "location": [
-            "零号魔光炉"
-          ],
-          "catchCondition": "降低其HP",
-          "transformCondition": "灯火之森隐藏点",
-          "transformTo": [
-            "魔法罐"
-          ],
-          "size": "M",
-          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635786322.jpg",
-          "drop": [],
-          "shadowStone": "物理防御下降抗性"
-        }
+            }
       ]
     },
     {
@@ -1137,26 +1144,7 @@
         }
       ]
     },
-    {
-      "id": 23,
-      "list": [
-        {
-          "id": 28,
-          "name": "左钩爪",
-          "group": 23,
-          "location": [
-            "冰柱悬崖",
-            "第七峡谷"
-          ],
-          "catchCondition": "降低其HP",
-          "transformTo": [],
-          "size": "L",
-          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606526.jpg",
-          "drop": [],
-          "shadowStone": "缓慢"
-        }
-      ]
-    },
+
     {
       "id": 24,
       "list": [
@@ -1424,6 +1412,40 @@
           "size": "L",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606534.jpg",
           "drop": []
+        },
+        {
+          "id": 25,
+          "name": "魔法罐",
+          "group": 29,
+          "transType":1,
+          "location": [
+            "灯火之森"
+          ],
+          "catchCondition": "对其使用万灵药",
+          "transformTo": [
+            "黄金模仿怪"
+          ],
+          "size": "S",
+          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635821921.jpg",
+          "drop": []
+        },
+        {
+          "id": 68,
+          "name": "黄金模仿怪",
+          "group": 29,
+          "transType":1,
+          "location": [
+            "零号魔光炉"
+          ],
+          "catchCondition": "降低其HP",
+          "transformCondition": "灯火之森隐藏点",
+          "transformTo": [
+            "魔法罐"
+          ],
+          "size": "M",
+          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635786322.jpg",
+          "drop": [],
+          "shadowStone": "物理防御下降抗性"
         }
       ]
     },
@@ -1567,44 +1589,6 @@
           "size": "M",
           "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635786333.jpg",
           "drop": []
-        }
-      ]
-    },
-    {
-      "id": 33,
-      "list": [
-        {
-          "id": 41,
-          "name": "血腥赤眼",
-          "group": 33,
-          "location": [
-            "翼龙溪谷",
-            "第七峡谷"
-          ],
-          "catchCondition": "对方仅剩其一体迷影兽",
-          "transformTo": [
-            "布耶尔"
-          ],
-          "size": "M",
-          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635786305.jpg",
-          "drop": []
-        },
-        {
-          "id": 119,
-          "name": "布耶尔",
-          "group": 33,
-          "location": [
-            "斗技场"
-          ],
-          "catchCondition": "陷入混乱状态",
-          "transformCondition": "17幕BOSS",
-          "transformTo": [
-            "血腥赤眼"
-          ],
-          "size": "L",
-          "url": "http://img.dwstatic.com/ps4/1611/342635399268/342635606510.jpg",
-          "drop": [],
-          "shadowStone": "反射"
         }
       ]
     },
