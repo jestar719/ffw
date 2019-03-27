@@ -1,4 +1,4 @@
-package cn.jestar.ffw;
+package cn.jestar.ffw.groups;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -15,6 +15,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
+import cn.jestar.ffw.R;
 import cn.jestar.ffw.monster.Monster;
 import cn.jestar.ffw.monster.MonsterGroup;
 
@@ -24,6 +25,7 @@ import cn.jestar.ffw.monster.MonsterGroup;
 
 public class MonsterGroupAdapter extends RecyclerView.Adapter<MonsterGroupAdapter.MonsterGroupHolder> {
     private List<MonsterGroup> mGroups = new ArrayList<>();
+
 
     public MonsterGroupAdapter(List<MonsterGroup> groups) {
         mGroups.addAll(groups);
@@ -90,24 +92,26 @@ public class MonsterGroupAdapter extends RecyclerView.Adapter<MonsterGroupAdapte
             for (int i = 0; i < size; i++) {
                 View view = mContainer.getChildAt(i);
                 Monster monster = list.get(i);
+                boolean isWhite = monster.getTransType() % 2 == 0;
+                view.setBackgroundColor(resources.getColor(isWhite ? R.color.white : R.color.colorPrimaryLight));
                 ImageView iv = view.findViewById(R.id.iv_header);
                 int id = monster.getId();
                 int mipmap = resources.getIdentifier("icon_" + id, "mipmap", packageName);
-                Log.e("id=",id+"");
+                Log.e("id=", id + "");
                 iv.setImageResource(mipmap);
                 String catchCondition = monster.getCatchCondition();
                 String shadowStone = monster.getShadowStone();
                 String text = String.format(name, monster.getName(), getString(shadowStone));
                 ((TextView) view.findViewById(R.id.tv_name)).setText(text);
                 List<String> locationList = monster.getLocation();
-                String locationText=locationList.isEmpty()?"无":locationList.toString();
+                String locationText = locationList.isEmpty() ? "无" : locationList.toString();
                 text = String.format(location, locationText, getString(catchCondition));
                 ((TextView) view.findViewById(R.id.tv_location)).setText(text);
             }
         }
 
         private String getString(String text) {
-            return text==null?"无":text;
+            return text == null ? "无" : text;
         }
     }
 }

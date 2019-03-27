@@ -27,6 +27,7 @@ public class Monster implements Comparable<Monster> {
     private String url;
     private List<String> drop = new ArrayList<>();
     private String shadowStone;
+    private int transType;
 
     public List<String> getDrop() {
         return drop;
@@ -142,5 +143,13 @@ public class Monster implements Comparable<Monster> {
     @Override
     public int compareTo(@NonNull Monster o) {
         return id - o.getId();
+    }
+
+    public int getTransType() {
+        return transType;
+    }
+
+    public void setTransType(int transType) {
+        this.transType = transType;
     }
 }

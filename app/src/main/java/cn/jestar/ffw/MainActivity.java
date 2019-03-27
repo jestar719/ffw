@@ -6,11 +6,17 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.view.View;
+import android.view.ViewGroup;
+
+import cn.jestar.ffw.groups.MonsterGroupAdapter;
 
 public class MainActivity extends AppCompatActivity {
 
     private Toolbar mToolBar;
     private MainModel mModel;
+    private FragmentFactory mFactory;
+    private BaseFragment mCurrentFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,13 +26,18 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(mToolBar);
         mModel = ViewModelProviders.of(this).get(MainModel.class);
         mModel.init(this);
-        initRv();
+        mFactory = new FragmentFactory();
+        showFragment(BaseFragment.Tags.group);
     }
 
-    private void initRv() {
-        RecyclerView mRv = findViewById(R.id.rv);
-        mRv.setLayoutManager(new LinearLayoutManager(this));
-        MonsterGroupAdapter adapter = new MonsterGroupAdapter(mModel.getGroups());
-        mRv.setAdapter(adapter);
+    private void showFragment(String tag) {
+        BaseFragment fragment = mFactory.getFragment(tag);
+        if (fragment == mCurrentFragment)
+            return;
+        mCurrentFragment = fragment;
+        getSupportFragmentManager().beginTransaction()
+                .replace(R.id.fl_container, fragment, tag)
+                .commit();
     }
+
 }
