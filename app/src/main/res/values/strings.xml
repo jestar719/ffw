@@ -3,5 +3,23 @@
     <string name="monster_name_temp" formatted="false">名称：%s    暗影石：%s</string>
     <string name="monster_location_temp" formatted="false">地点： %s\n捕获条件：%s</string>
     <string name="groups">怪物组</string>
+    <string name="action_search">搜索</string>
+    <string name="open">开启</string>
+    <string name="close">关闭</string>
+    <string name="name">名称</string>
+    <string name="location">地点</string>
+    <string name="shadow">暗影石</string>
+    <string name="catch_condition">捕获条件</string>
+    <string name="trans_condition">变身条件</string>
+    <string name="weight">重量</string>
+    <string name="drop">掉落</string>
+    <string name="element_resist">元素抗性</string>
+    <string name="exception_resist">异常抗性</string>
+    <string name="private_skill">专有技能</string>
+    <string name="public_skill">公共技能</string>
+    <string name="passive_skill">被动技能</string>
+    <string name="element_resist_temp">火 %s 冰 %s 电 %s 水 %s 风 %s 地 %s 光 %s 暗 %s </string>
+    <string name="exception_resist_temp">睡眠 %s 沉默 %s 毒 %s 减速 %s 暗 %s 忘却 %s 狂暴 %s 即死 %s </string>
+
 
 </resources>

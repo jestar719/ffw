@@ -1,5 +1,6 @@
 package cn.jestar.ffw.groups;
 
+import android.arch.lifecycle.Observer;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -16,19 +17,42 @@ import cn.jestar.ffw.BaseFragment;
  * Created by 花京院 on 2019/3/26.
  */
 
-public class GroupsFragment extends BaseFragment {
+public class GroupsFragment extends BaseFragment implements MonsterGroupAdapter.OnItemChildClickListener {
+
+    private MonsterGroupAdapter mAdapter;
+    private RecyclerView mRecyclerView;
+
     public GroupsFragment() {
-        mTag =Tags.group;
+        mTag = Tags.GROUP;
     }
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         Context context = container.getContext();
-        RecyclerView view = new RecyclerView(context);
-        view.setLayoutManager(new LinearLayoutManager(context));
-        MonsterGroupAdapter adapter = new MonsterGroupAdapter(mModel.getGroups());
-        view.setAdapter(adapter);
-        return view;
+        mRecyclerView = new RecyclerView(context);
+        mRecyclerView.setLayoutManager(new LinearLayoutManager(context));
+        mAdapter = new MonsterGroupAdapter(mModel.getGroups()).setListener(this);
+        mRecyclerView.setAdapter(mAdapter);
+        return mRecyclerView;
+    }
+
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        mModel.observerSearch(this, new Observer<String>() {
+            @Override
+            public void onChanged(@Nullable String s) {
+                int index = mModel.getGroupIdByMonsterName(s);
+                if (index >= 0) {
+                    mRecyclerView.smoothScrollToPosition(index);
+                }
+            }
+        });
+        super.onViewCreated(view, savedInstanceState);
+    }
+
+    @Override
+    public void onItemChildClick(int position, int index) {
+        mModel.onGroupSelect(position, index);
     }
 }

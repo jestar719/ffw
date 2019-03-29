@@ -3,6 +3,7 @@ package cn.jestar.ffw;
 import java.util.HashMap;
 import java.util.Map;
 
+import cn.jestar.ffw.groups.GroupDetailFragment;
 import cn.jestar.ffw.groups.GroupsFragment;
 
 /**
@@ -22,8 +23,10 @@ public class FragmentFactory {
 
     private BaseFragment createFragment(String tag) {
         switch (tag) {
-            case BaseFragment.Tags.group:
+            case BaseFragment.Tags.GROUP:
                 return new GroupsFragment();
+            case BaseFragment.Tags.MONSTER:
+                return new GroupDetailFragment();
             default:
                 return null;
         }

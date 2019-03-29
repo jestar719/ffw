@@ -21,5 +21,10 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="style_monster_title">
+        <item name="android:layout_marginLeft">@dimen/d8</item>
+        <item name="android:layout_marginTop">@dimen/d8</item>
+    </style>
+
 
 </resources>

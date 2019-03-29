@@ -70,15 +70,15 @@ public class RepositoryTest {
 
     private void resetGroupId(List<MonsterGroup> list) throws IOException {
         int size = list.size();
-        int id;
+        int groupId;
         int mId = 0;
         for (int i = 0; i < size; i++) {
-            id = i + 1;
+            groupId = i + 1;
             MonsterGroup group = list.get(i);
-            group.setId(id);
+            group.setId(groupId);
             for (Monster monster : group.getList()) {
                 mId++;
-                monster.setGroup(id);
+                monster.setGroup(groupId);
                 monster.setId(mId);
                 loadImg(monster);
             }

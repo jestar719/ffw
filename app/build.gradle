@@ -10,9 +10,7 @@ android {
         versionName vName
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
-    dataBinding {
-        enabled= true
-    }
+
     buildTypes {
         release {
             minifyEnabled false
@@ -30,7 +28,9 @@ dependencies {
     implementation lib.cardview
     implementation lib.livedata
     implementation lib.gson
+    implementation lib.glide
     annotationProcessor lib.livedataCompiler
+//    annotationProcessor lib.glideApt
     testImplementation lib.junit
 //    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }

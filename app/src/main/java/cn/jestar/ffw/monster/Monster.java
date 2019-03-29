@@ -17,15 +17,15 @@ public class Monster implements Comparable<Monster> {
     //组别（可互变身的为一组）
     private int group;
     //地点
-    private List<String> location = new ArrayList<>();
+    private List<String> location;
     //捕获条件
     private String catchCondition;
     //变身成当前怪物的条件
     private String transformCondition;
-    private List<String> transformTo = new ArrayList<>();
+    private List<String> transformTo;
     private String size;
     private String url;
-    private List<String> drop = new ArrayList<>();
+    private List<String> drop;
     private String shadowStone;
     private int transType;
 
@@ -114,6 +114,9 @@ public class Monster implements Comparable<Monster> {
     }
 
     public void addLocation(String text) {
+        if (location == null) {
+            location = new ArrayList<>();
+        }
         location.add(text);
     }
 

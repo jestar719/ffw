@@ -11,9 +11,6 @@ import android.support.v4.app.Fragment;
  */
 
 public class BaseFragment extends Fragment {
-   public @interface Tags{
-       String group="怪物组";
-   }
     protected String mTag;
     protected MainModel mModel;
 
@@ -23,5 +20,11 @@ public class BaseFragment extends Fragment {
         super.onCreate(savedInstanceState);
         mModel = ViewModelProviders.of(getActivity()).get(MainModel.class);
     }
+
+    public @interface Tags {
+        String GROUP = "怪物组";
+        String MONSTER = "怪物";
+    }
+
 
 }
