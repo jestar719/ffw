@@ -18,8 +18,8 @@
     <string name="private_skill">专有技能</string>
     <string name="public_skill">公共技能</string>
     <string name="passive_skill">被动技能</string>
-    <string name="element_resist_temp">火 %s 冰 %s 电 %s 水 %s 风 %s 地 %s 光 %s 暗 %s </string>
-    <string name="exception_resist_temp">睡眠 %s 沉默 %s 毒 %s 减速 %s 暗 %s 忘却 %s 狂暴 %s 即死 %s </string>
+    <string name="element_resist_temp" formatted="false">火 %s 冰 %s 电 %s 水 %s 风 %s 地 %s 光 %s 暗 %s </string>
+    <string name="exception_resist_temp" formatted="false">睡眠 %s 沉默 %s 毒 %s 减速 %s 暗 %s 忘却 %s 狂暴 %s 即死 %s </string>
 
 
 </resources>
