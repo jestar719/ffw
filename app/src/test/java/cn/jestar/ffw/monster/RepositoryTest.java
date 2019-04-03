@@ -80,7 +80,7 @@ public class RepositoryTest {
                 mId++;
                 monster.setGroup(groupId);
                 monster.setId(mId);
-                loadImg(monster);
+//                loadImg(monster);
             }
         }
     }

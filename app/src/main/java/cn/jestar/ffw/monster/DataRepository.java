@@ -1,5 +1,8 @@
 package cn.jestar.ffw.monster;
 
+import android.support.v7.widget.SearchView;
+import android.util.Log;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -18,7 +21,11 @@ public class DataRepository {
     public void init() {
         for (MonsterGroup group : list) {
             for (Monster m : group.getList()) {
-                monsters.put(m.getName(), m);
+                String name = m.getName();
+                if (name==null){
+                    Log.e("init",m.toString());
+                }else {
+                monsters.put(name, m);}
             }
         }
     }
